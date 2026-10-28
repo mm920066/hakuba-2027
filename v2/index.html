@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>白馬 2027</title>
+  <meta name="description" content="8 個人、2027 年 1 月 18 到 20 日，每天早上從大町開車上去滑三天：六個雪場、票、租具、路況。">
+  <meta name="theme-color" content="#b3b7bb">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="白馬 2027">
+  <script>document.documentElement.classList.add('js')</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@900&family=Noto+Serif+TC:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" crossorigin="">
+  <link rel="stylesheet" href="base.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ HERO: the pinned poster ============ -->
+<header class="hero" id="top"><script>if (matchMedia("(prefers-reduced-motion: reduce)").matches) document.currentScript.parentElement.classList.add("hero--rest");</script>
+  <div class="hero__wrap">
+    <div class="hero__stage" id="hero-stage">
+      <nav class="bar" aria-label="頁面">
+        <a class="bar__mark" href="#top">白馬 2027</a>
+        <ul class="bar__links">
+          <li><a class="link" href="#resorts">雪場</a></li>
+          <li><a class="link" href="#drive">開車</a></li>
+          <li><a class="link" href="#tickets">票</a></li>
+          <li><a class="link" href="#rental">租具</a></li>
+          <li><a class="link" href="#faq">問答</a></li>
+        </ul>
+        <a class="button bar__action" href="#tickets">買早鳥票</a>
+      </nav>
+
+      <h1 class="hero__title">白馬 2027</h1>
+
+      <div class="hero__covers" id="covers">
+        <figure class="cover is-on" data-ground="#7d8993">
+          <img src="assets/hakuba-cortina-kokusai-ski-resort.jpg" width="1920" height="1440" alt="白馬 Cortina 滑雪場，紅色的 Hotel Green Plaza 立在雪道底下" fetchpriority="high" decoding="async">
+          <figcaption>Cortina・乘鞍　大町&nbsp;40&nbsp;km　山頂&nbsp;1,402&nbsp;m</figcaption>
+        </figure>
+        <figure class="cover" data-ground="#8a959d">
+          <img src="assets/tsugaike-kogen-ski-resort-8353157614.jpg" width="1920" height="1440" alt="栂池高原滑雪場，寬闊的雪道往白馬山谷下去" loading="lazy" decoding="async">
+          <figcaption>栂池高原　大町&nbsp;36&nbsp;km　山頂&nbsp;1,704&nbsp;m</figcaption>
+        </figure>
+        <figure class="cover" data-ground="#6b7680">
+          <img src="assets/hakuba-iwatake-snow-field-2.jpg" width="1920" height="1440" alt="白馬岩岳，纜車柱與對面的北阿爾卑斯雪山" loading="lazy" decoding="async">
+          <figcaption>岩岳　大町&nbsp;33&nbsp;km　山頂&nbsp;1,289&nbsp;m</figcaption>
+        </figure>
+        <figure class="cover" data-ground="#5c666e">
+          <img src="assets/usagidaira.jpg" width="1862" height="990" alt="八方尾根兔平，雪霧中的山脊與纜車站" loading="lazy" decoding="async">
+          <figcaption>八方尾根　大町&nbsp;30&nbsp;km　山頂&nbsp;1,831&nbsp;m</figcaption>
+        </figure>
+        <figure class="cover" data-ground="#79827f">
+          <img src="assets/sun-alpina-kashimayari-ski-resort.jpg" width="1920" height="1440" alt="鹿島槍滑雪場，雪道上方是鹿島槍岳" loading="lazy" decoding="async">
+          <figcaption>鹿島槍　大町&nbsp;16&nbsp;km　山頂&nbsp;1,320&nbsp;m</figcaption>
+        </figure>
+      </div>
+
+      <p class="hero__lead">8 個人、2027 年 1 月 18 到 20 日。每天早上從大町開車上去，滑三天。這一頁是我們的計畫。</p>
+      <a class="button hero__action" href="#resorts">看六個雪場</a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- ============ INTRO: why these six ============ -->
+<section class="intro" id="why" aria-labelledby="why-h">
+  <div class="wrap grid intro__grid">
+    <div class="intro__text">
+      <h2 class="intro__head" id="why-h" data-reveal>為什麼是這六個</h2>
+      <p class="intro__statement" data-reveal>2026 到 27 是聖嬰年，氣象廳預報日本海側的雪偏少。所以我們挑山頂高、下雪後最快積起來的雪場，出發前兩週再看一次雪況。</p>
+    </div>
+    <figure class="intro__profile" data-reveal>
+      <svg viewBox="0 0 640 420" role="img" aria-labelledby="profile-t profile-d">
+        <title id="profile-t">六個雪場的山腳與山頂標高，依離大町的距離排列</title>
+        <desc id="profile-d">由左到右：大町約 710 公尺；鹿島槍 830 到 1,320；八方尾根 760 到 1,831；岩岳 750 到 1,289；栂池 800 到 1,704；乘鞍 760 到 1,280；Cortina 872 到 1,402。1,000 公尺以下的山腳在回溫時容易化雪。</desc>
+        <!-- scale: y = 400 - (m - 600) * 0.26 ; stops spaced evenly, km written under each -->
+        <rect x="0" y="296" width="640" height="104" fill="var(--surface)"/>
+        <text x="12" y="316" class="pf-note">1,000 m 以下的山腳，回溫就化</text>
+        <!-- Omachi -->
+        <rect x="56" y="371" width="8" height="29" fill="var(--ink)"/>
+        <text x="60" y="414" class="pf-base" text-anchor="middle">大町 約 710</text>
+        <!-- Kashimayari 16km: base 830 top 1320 -->
+        <polygon points="130,340 160,213 190,340" fill="var(--ink)"/>
+        <text x="160" y="200" class="pf-top" text-anchor="middle">鹿島槍 1,320</text>
+        <text x="160" y="358" class="pf-base" text-anchor="middle">830</text>
+        <text x="160" y="48" class="pf-note" text-anchor="middle">16</text>
+        <!-- Happo 30km: base 760 top 1831 -->
+        <polygon points="210,358 250,80 290,358" fill="var(--accent)"/>
+        <text x="250" y="66" class="pf-top" text-anchor="middle">八方尾根 1,831</text>
+        <text x="250" y="376" class="pf-base" text-anchor="middle">760</text>
+        <text x="250" y="48" class="pf-note" text-anchor="middle">30</text>
+        <!-- Iwatake 33km: base 750 top 1289 -->
+        <polygon points="310,361 340,221 370,361" fill="var(--ink)"/>
+        <text x="340" y="208" class="pf-top" text-anchor="middle">岩岳 1,289</text>
+        <text x="340" y="379" class="pf-base" text-anchor="middle">750</text>
+        <text x="340" y="48" class="pf-note" text-anchor="middle">33</text>
+        <!-- Tsugaike 36km: base 800 top 1704 -->
+        <polygon points="390,348 430,113 470,348" fill="var(--accent)"/>
+        <text x="430" y="100" class="pf-top" text-anchor="middle">栂池 1,704</text>
+        <text x="430" y="366" class="pf-base" text-anchor="middle">800</text>
+        <text x="430" y="48" class="pf-note" text-anchor="middle">36</text>
+        <!-- Norikura 38km: base 760 top 1280 -->
+        <polygon points="490,358 520,223 550,358" fill="var(--ink)"/>
+        <text x="520" y="210" class="pf-top" text-anchor="middle">乘鞍 1,280</text>
+        <text x="520" y="376" class="pf-base" text-anchor="middle">760</text>
+        <text x="520" y="48" class="pf-note" text-anchor="middle">38</text>
+        <!-- Cortina 40km: base 872 top 1402 -->
+        <polygon points="570,329 600,191 630,329" fill="var(--ink)"/>
+        <text x="636" y="178" class="pf-top" text-anchor="end">Cortina 1,402</text>
+        <text x="600" y="347" class="pf-base" text-anchor="middle">872</text>
+        <text x="600" y="48" class="pf-note" text-anchor="middle">40</text>
+        <!-- km axis -->
+        <text x="12" y="48" class="pf-note">離大町 km</text>
+      </svg>
+      <figcaption class="intro__note">標高：JapowDB。預報：氣象廳 2026 年 9 月 18 日寒候期預報，日本海側東日本降雪「偏少」機率 50%；NOAA 10 月 8 日判定為強聖嬰。2015–16 強聖嬰那季白馬只下了 321 cm，約是平年的三分之二。</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ SHOWCASE: six resorts, cards crossing the range ============ -->
+<section class="stage" id="resorts" aria-labelledby="resorts-h">
+  <div class="stage__wrap" id="stage-wrap">
+    <div class="stage__stick">
+      <img class="stage__ground" src="assets/hakuba-happo-one-winter-resort.jpg" width="1920" height="1440" alt="冬天的白馬村與白馬三山" loading="lazy" decoding="async">
+      <div class="stage__intro" id="stage-intro">
+        <h2 class="stage__head" id="resorts-h">六個雪場<br>由北到南</h2>
+        <p class="stage__sub">點一張卡，看這個雪場的全部。選「我是」，每張卡就只告訴你該去哪一區。</p>
+      </div>
+      <fieldset class="who" id="who">
+        <legend class="who__legend">我是</legend>
+        <label class="who__opt"><input type="radio" name="who" value="beginner"><span>新手</span></label>
+        <label class="who__opt"><input type="radio" name="who" value="intermediate" checked><span>中級</span></label>
+        <label class="who__opt"><input type="radio" name="who" value="advanced"><span>進階</span></label>
+        <label class="who__opt"><input type="radio" name="who" value="scenery"><span>看風景</span></label>
+      </fieldset>
+      <ul class="track" id="track">
+        <!-- cards rendered by app.js; no-script fallback below -->
+      </ul>
+      <noscript><p class="wrap">請開啟 JavaScript 看六個雪場的卡片；或直接讀下面的票價與路況。</p></noscript>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DRIVE: the itinerary on a slip, the map beside it ============ -->
+<section class="drive" id="drive" aria-labelledby="drive-h">
+  <div class="wrap grid drive__grid">
+    <div class="drive__text">
+      <h2 class="head drive__head" id="drive-h" data-reveal>從大町開上去</h2>
+      <p class="drive__para" data-reveal>兩台 4WD，各坐四個人。07:30 前出發就不會卡在鏟雪車後面。國道 148 沿著三個湖走，湖邊背陽，黑冰看起來只是柏油在反光。</p>
+      <div class="drive__map" id="map" data-ui data-reveal aria-label="大町到六個雪場的地圖"></div>
+      <p class="drive__mapnote">地圖：國土地理院淡色地圖。綠點是我們出發的大町站，圓點是六個雪場，依號碼由北到南。</p>
+    </div>
+    <div class="slip" data-reveal>
+      <div class="slip__group">
+        <h3 class="slip__time">07:00　大町</h3>
+        <div class="slip__row"><span>加滿油，換 −20°C 防凍雨刷水</span><i></i><b>10 分</b></div>
+        <div class="slip__row"><span>雪板上車，兩台車各四人</span><i></i><b>10 分</b></div>
+        <div class="slip__row"><span>07:30 前出發，避開鏟雪車</span><i></i><b>出發</b></div>
+      </div>
+      <div class="slip__group">
+        <h3 class="slip__time">07:30　國道 148 北上</h3>
+        <div class="slip__row"><span>木崎湖、中綱湖、青木湖，黑冰路段</span><i></i><b>慢</b></div>
+        <div class="slip__row"><span>佐野坂峠下坡，提早收油門</span><i></i><b>不急煞</b></div>
+        <div class="slip__row"><span>雪天比無雪日再多</span><i></i><b>10–20 分</b></div>
+      </div>
+      <div class="slip__group">
+        <h3 class="slip__time">到雪場，停好</h3>
+        <div class="slip__row"><span>鹿島槍，中央停車場，平日免費</span><i></i><b>30–40 分</b></div>
+        <div class="slip__row"><span>八方，第 8 停車場（咲花），免費</span><i></i><b>45–60 分</b></div>
+        <div class="slip__row"><span>岩岳，第 1 停車場，免費</span><i></i><b>50–60 分</b></div>
+        <div class="slip__row"><span>栂池，第 2 停車場免費，中央 ¥500</span><i></i><b>55–70 分</b></div>
+        <div class="slip__row"><span>乘鞍，若栗中央，免費</span><i></i><b>60–75 分</b></div>
+        <div class="slip__row"><span>Cortina，Green Plaza 前，免費</span><i></i><b>65–80 分</b></div>
+      </div>
+      <div class="slip__total"><span>停好車走到雪道</span><b>最遠 80 分鐘</b></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRICING: the ticket ============ -->
+<section class="tickets" id="tickets" aria-labelledby="tickets-h">
+  <div class="wrap">
+    <h2 class="head tickets__head" id="tickets-h" data-reveal>票，一天買一張</h2>
+    <p class="tickets__para" data-reveal>Hakuba Valley 三日券 ¥32,200，裡面含我們用不到的接駁巴士，而且要連續三天。各雪場的早鳥票一天一張，便宜又不用綁。</p>
+    <form class="ticket" id="ticket" data-reveal>
+      <div class="ticket__main">
+        <p class="ticket__title">三天的票</p>
+        <div class="ticket__days">
+          <label class="ticket__day"><span class="ticket__date">1/18（一）</span><select name="d1" class="ticket__pick" data-day="1"></select><output class="ticket__price nums" data-out="1"></output></label>
+          <label class="ticket__day"><span class="ticket__date">1/19（二）</span><select name="d2" class="ticket__pick" data-day="2"></select><output class="ticket__price nums" data-out="2"></output></label>
+          <label class="ticket__day"><span class="ticket__date">1/20（三）</span><select name="d3" class="ticket__pick" data-day="3"></select><output class="ticket__price nums" data-out="3"></output></label>
+        </div>
+        <div class="ticket__terms">
+          <p>早鳥票在 WAmazing Snow、SURF&amp;SNOW、Snownavi 買，手機 QR 到自動機換 IC 卡。</p>
+          <p>截止：栂池、八方 11/30；Cortina＋乘鞍 12/11；岩岳 12/13；鹿島槍未公告。</p>
+        </div>
+      </div>
+      <div class="ticket__stub">
+        <p class="ticket__per"><output class="nums" id="per-person">¥19,300</output><span class="ticket__unit">每人三天</span></p>
+        <label class="ticket__people"><span>幾個人一起買</span><select name="people" id="people" class="ticket__pick"></select></label>
+        <a class="ticket__buy" href="https://www.wamazing.com/snow" target="_blank" rel="noopener">去 WAmazing 買</a>
+      </div>
+    </form>
+    <p class="tickets__sum nums" id="sum-line" data-reveal>8 個人三天合計 ¥154,400。同樣的人買 Hakuba Valley 三日券要 ¥257,600。</p>
+  </div>
+</section>
+
+<!-- ============ STATS: one figure owns the screen ============ -->
+<section class="saving" id="saving" aria-labelledby="saving-h">
+  <div class="wrap saving__inner">
+    <h2 class="saving__claim" id="saving-h" data-reveal>八個人，省下來的日圓</h2>
+    <p class="saving__figure nums" data-reveal><output id="saving-figure">10.3</output><sup class="saving__unit">萬</sup></p>
+    <p class="saving__caption" id="saving-caption" data-reveal>8 人各買栂池、八方、鹿島槍早鳥票 ¥19,300，和 Hakuba Valley 三日券 ¥32,200 的差。</p>
+    <p class="saving__source">2026–27 季票價，2026 年 10 月 28 日查核。</p>
+  </div>
+</section>
+
+<!-- ============ LIST: rental shops at one size ============ -->
+<section class="rental" id="rental" aria-labelledby="rental-h">
+  <div class="rental__inner">
+    <h2 class="rental__head" id="rental-h" data-reveal>租雪具，五家</h2>
+    <div class="lineup" id="lineup" data-reveal>
+      <!-- rows rendered by app.js -->
+    </div>
+    <p class="rental__note" data-reveal>價格是 2026–27 季成人標準套裝三天，10 月 28 日查到的；Rhythm、Central 由五天價推算。Sunshine 線上預約 8 折只到 10 月 31 日。</p>
+  </div>
+</section>
+
+<!-- ============ FAQ: answers as reading text ============ -->
+<section class="faq" id="faq" aria-labelledby="faq-h">
+  <div class="wrap grid faq__grid">
+    <h2 class="faq__head" id="faq-h" data-reveal>先回答的</h2>
+    <div class="faq__text" data-reveal>
+      <p><strong>怎麼把這頁放到手機桌面？</strong>iPhone 用 Safari 開，按下方分享，選「加入主畫面」。Android 用 Chrome 開，按右上角選單，選「加到主畫面」。之後每次點開都是最新版。</p>
+      <p><strong>聖嬰年要不要改期？</strong>不用先改。1 月 18 日已接近一月中，但暖冬可能讓雪季晚到；1 月初看各雪場的積雪公告，底部開不了就把三天集中在八方和栂池。</p>
+      <p><strong>為什麼不買全山券？</strong>三日券 ¥32,200 要連續三天用，溢價是接駁巴士的錢，我們自駕用不到。一天一張早鳥票，三天 ¥19,300 上下，天氣不好那天還能不去。</p>
+      <p><strong>新手可以去 Cortina 嗎？</strong>可以買票，但 Cortina 的初級道窄。新手走到隔壁乘鞍的若栗平原練，同一張票；高手從山頂切回 Cortina 樹林。</p>
+      <p><strong>八方真的沒有新手區？</strong>有，只有咲花一區。停第 8 停車場，出車門就是緩坡，不要搭纜車往上。</p>
+      <p><strong>租幾台車？</strong>兩台 4WD 休旅車，各坐四人，後車廂各放四副板。十人座大車重心高，雪地陡坡起步會打滑。長野雪路依法要無釘雪胎或雪鏈。</p>
+      <p><strong>幾點出發？</strong>07:30 前。07:00 到 08:00 是鏟雪車作業時間，卡在後面只能開 20 km/h。</p>
+      <p><strong>雪具在哪裡租？</strong>Sunshine 可以前一天下午在白馬站前先拿，中文 LINE 客服；Spicy 在八方、岩岳、栂池都有店，第一天鞋夾腳隔天就地換。</p>
+      <p><strong>不滑雪的人去哪裡？</strong>岩岳山頂的 Mountain Harbor 和 City Bakery，晴天看白馬三山；鹿島槍的 Highland Spa 憑纜車券免費泡，窗外是青木湖。</p>
+      <p><strong>這頁的數字從哪裡來？</strong>標高和坡度是 JapowDB，票價是各雪場官網、WAmazing、SURF&amp;SNOW、Snownavi 的 2026–27 季公告，租金是各店 2026–27 價目表。全部在 10 月 28 日查過一次，出發前會再查。</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER: photograph half, menu half ============ -->
+<footer class="foot" id="foot">
+  <figure class="foot__photo">
+    <img src="assets/lake-aoki-winter.jpg" width="1920" height="1280" alt="冬天的青木湖，湖邊積雪，對岸是雪山" loading="lazy" decoding="async">
+  </figure>
+  <div class="foot__menu">
+    <a class="foot__mark" href="#top">白馬 2027</a>
+    <ul class="foot__links">
+      <li><a class="link" href="#resorts">雪場</a></li>
+      <li><a class="link" href="#drive">開車</a></li>
+      <li><a class="link" href="#tickets">票</a></li>
+      <li><a class="link" href="#rental">租具</a></li>
+      <li><a class="link" href="#faq">問答</a></li>
+    </ul>
+    <div class="foot__blocks">
+      <p>青木湖。從大町往北第三個湖，過了它就是佐野坂峠，再過去就是白馬。</p>
+      <p>資料查核：2026 年 10 月 28 日。出發前兩週再查一次雪況與票價。</p>
+    </div>
+    <p class="foot__credits small" id="credits">照片來自 Wikimedia Commons：「Hakuba Cortina Kokusai Ski Resort」「Hakuba Happo-one Winter Resort」「Hakuba Iwatake Snow Field」「Hakuba Iwatake Snow Field 2」Ski Mania，公有領域；「Sun Alpina Kashimayari Ski Resort」RESPITE，公有領域；「Tsugaike Kogen Ski Resort (8353157614)」Tetsuji Sakakibara，CC BY-SA 2.0；「Usagidaira」しんかわな，CC BY 3.0；「冬の青木湖」くろふね，CC BY-SA 4.0。地圖：國土地理院。</p>
+  </div>
+</footer>
+
+<!-- ============ DIALOG: one resort in full ============ -->
+<dialog class="sheet" id="sheet" aria-labelledby="sheet-h">
+  <div class="sheet__inner" id="sheet-inner"></div>
+</dialog>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" crossorigin=""></script>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
