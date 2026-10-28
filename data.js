@@ -22,8 +22,8 @@ const HAKUBA_DATA = {
       jpName: "白馬コルチナスキー場",
       enName: "Hakuba Cortina Ski Resort",
       tagline: "北端野雪天花板，合法開放樹林與天然碗狀地形聖地",
-      lat: 36.7580,
-      lng: 137.9044,
+      lat: 36.776,
+      lng: 137.888,
       elevation: { base: 872, top: 1402, drop: 530 },
       areaHa: 50,
       courseCount: 16,
@@ -54,7 +54,7 @@ const HAKUBA_DATA = {
       earlyBird: {
         lowestPrice: "¥5,500",
         regularPrice: "¥6,500",
-        deadline: "2026/12/15 止 (開季前)",
+        deadline: "2026/12/11 止",
         bestSources: "WAmazing Snow (完美行) / Winter Plus / Snownavi",
         discountInfo: "現省 ¥1,000 (含乘鞍溫泉 2 場共通一日券)",
         redemption: "憑手機 QR Code 現場自動機台兌換實體 IC 卡直衝纜車"
@@ -87,8 +87,8 @@ const HAKUBA_DATA = {
       jpName: "白馬乗鞍温泉スキー場",
       enName: "Hakuba Norikura Onsen",
       tagline: "人少悠閒、若栗平原超緩坡與樹林，與 Cortina 互補雙贏",
-      lat: 36.7505,
-      lng: 137.9002,
+      lat: 36.765,
+      lng: 137.883,
       elevation: { base: 760, top: 1280, drop: 520 },
       areaHa: 50,
       courseCount: 12,
@@ -119,7 +119,7 @@ const HAKUBA_DATA = {
       earlyBird: {
         lowestPrice: "¥5,500",
         regularPrice: "¥6,500",
-        deadline: "2026/12/15 止 (開季前)",
+        deadline: "2026/12/11 止",
         bestSources: "WAmazing Snow / Winter Plus / Snownavi",
         discountInfo: "現省 ¥1,000 (含 Cortina 共通一日券)",
         redemption: "電子票兌換或實體 IC 卡直接過閘門"
@@ -152,8 +152,8 @@ const HAKUBA_DATA = {
       jpName: "つがいけマウンテンリゾート",
       enName: "Tsugaike Mountain Resort",
       tagline: "全白馬最強新手天堂，1.2km 超寬鐘之鳴丘與 1,704m DBD 專家鬆雪",
-      lat: 36.7441,
-      lng: 137.8965,
+      lat: 36.747,
+      lng: 137.870,
       elevation: { base: 800, top: 1704, drop: 904 },
       areaHa: 196,
       courseCount: 18,
@@ -173,8 +173,8 @@ const HAKUBA_DATA = {
       },
       parking: {
         capacity: 1500,
-        fee: "中央第一、第四等大多免費（Gondola 預約位 ¥3,000）",
-        recommendation: "中央第一免費停車場（離鐘之鳴丘或纜車站步行約 3–5 分鐘，附有更衣室與洗手間）"
+        fee: "第 2 停車場免費；中央停車場 ¥500/日；纜車站預約位 ¥3,000",
+        recommendation: "第 2 停車場免費；想離纜車站最近就停中央停車場（¥500）"
       },
       elNino: {
         resilienceRating: 5,
@@ -190,11 +190,11 @@ const HAKUBA_DATA = {
         redemption: "手機憑證 QR Code 於自動兌換機掃描取 IC 卡直行纜車"
       },
       playbook: {
-        transport: "大町開車雪地約 55–70 分鐘（36km）。推薦停【中央第一免費停車場】，車位多且設施完備，步行 3 分鐘即達雪道。",
+        transport: "大町開車雪地約 55–70 分鐘（36km）。推薦停【第 2 停車場】（免費）或中央停車場（¥500，離纜車站最近）。",
         beginnerZone: "【鐘之鳴丘（鐘の鳴る丘ゲレンデ） ＋ 親之原（Oyanohara）】：全日本首屈一指的新手殿堂！寬度達 1,200 米，均坡僅 8 度，超寬開闊視野完全消除恐懼感，新手在此滑整天都不想走。",
         intermediateZone: "【澯之木（Han-no-ki）中下段 ＋ 馬之背聯絡道】：長達數公里的長坡，適合練習連續高速轉彎與中級進階技術。",
         advancedZone: "【TSUGAPOW DBD 合法粉雪區（山頂 1,704m）】：搭乘全長 4km 的 Eve 廂型纜車登頂，聆聽安全說明並佩戴專屬臂章後，可從各個專用 Gate 進入合法管理的深雪樹林區，雪質極乾極冷！",
-        sceneryZone: "【4km Eve 廂型纜車巡航 ＋ 山頂栂之森雪怪樹冰】：新手也能買纜車票搭乘 Eve 廂型車直登 1,700m 高空俯瞰整座白馬雪谷，享受高山純白景致。",
+        sceneryZone: "【4km Eve 廂型纜車巡航 ＋ 山頂栂之森雪怪樹冰】：新手也能買纜車票搭 Eve 廂型車上到約 1,580 m 的栂之森，俯瞰整座白馬雪谷，享受高山純白景致。",
         bestTiming: "🏆 8 人混合程度第一天（Day 1）絕對首選！新手保證順利上手，進階者登頂衝 DBD 毫不無聊。"
       },
       highlights: [
@@ -247,11 +247,11 @@ const HAKUBA_DATA = {
         analysis: "岩岳為獨立山頭，山頂標高僅 1,289m。強烈聖嬰暖冬下若無新雪，下半部南向坡面容易雪量不足或見草。但晴天時山頂 View 區巡航體驗極佳。"
       },
       earlyBird: {
-        lowestPrice: "¥5,700",
-        regularPrice: "¥7,500–¥8,000",
+        lowestPrice: "¥6,700",
+        regularPrice: "¥7,500–¥8,500",
         deadline: "2026/12/13 止",
         bestSources: "Winter Plus / Snownavi / WAmazing Snow / Asoview",
-        discountInfo: "現省 ¥1,800–¥2,300（現場需另付 IC 押金 ¥1,000 退卡返還）",
+        discountInfo: "現省約 ¥800–¥1,800（現場另付 IC 押金 ¥1,000，退卡返還）",
         redemption: "QR Code 兌換 IC 票卡 / 直達新纜車"
       },
       playbook: {
@@ -347,8 +347,8 @@ const HAKUBA_DATA = {
       jpName: "鹿島槍スキー場ファミリーパーク",
       enName: "Kashimayari Snow Resort Family Park",
       tagline: "俯瞰青木雙湖蔚藍絕景、空中展望大浴場、大町自駕最近",
-      lat: 36.5683,
-      lng: 137.8500,
+      lat: 36.601,
+      lng: 137.826,
       elevation: { base: 830, top: 1320, drop: 490 },
       areaHa: 78,
       courseCount: 12,
@@ -379,7 +379,7 @@ const HAKUBA_DATA = {
       earlyBird: {
         lowestPrice: "¥4,500",
         regularPrice: "¥6,200",
-        deadline: "2026/12/15 止",
+        deadline: "未公告截止日（開季前）",
         bestSources: "Winter Plus / SURF&SNOW / WAmazing Snow",
         discountInfo: "現省 ¥1,700！約 72 折超親民票價（平日停車完全免費）",
         redemption: "電子憑證 QR Code 於櫃台或自動售票機快速換卡"
@@ -389,14 +389,14 @@ const HAKUBA_DATA = {
         beginnerZone: "【中綱ゲレンデ ＋ 黑澤初級雪道】：出 Central Plaza 1130 門口就是平緩初學坡，沒有懸崖與險峻盲區，練習上下纜車與推坡極度安心。",
         intermediateZone: "【Course 1 / 2 / 3（湖景巡航道）】：沿著山脊一路向下滑行，眼前是蔚藍的青木湖與中綱湖，視野開闊，滑行體驗非常舒適療癒。",
         advancedZone: "【Course 5B（北壁黑線陡坡） ＋ 競技專用道】：最大坡度 22.7 度，背陽北向雪面，適合進階者進行中長距離高速卡邊（Carving）練習。",
-        sceneryZone: "【Central Plaza 1130 空中展望大浴場「ハイランドの湯」 ＋ 150m 雪上甜甜圈】：滑完雪直接在基地 4 樓泡天然溫泉、隔著整面玻璃大窗看鹿島槍岳日落；雪上甜甜圈刺激好玩。",
+        sceneryZone: "【Central Plaza 1130 空中展望浴場「ハイランドスパ」 ＋ 150m 雪上甜甜圈】：憑當日纜車券免費入浴（12:00–18:00），泡著看鹿島槍岳與青木湖；雪上甜甜圈刺激好玩。",
         bestTiming: "🏞️ 想要省去雪地長途駕駛、想要看高山湖景、以及想要「滑完立刻在雪場頂樓泡景觀溫泉」的超放鬆日子！"
       },
       highlights: [
         "美景無敵：俯瞰蔚藍的青木湖與中綱湖湖光山色，正對北阿爾卑斯鹿島槍岳雙峰",
         "大町自駕最近：車程僅約 30 分鐘，免去長途雪地駕駛與塞車負擔",
-        "Central Plaza 1130 設有高空景觀空中大浴場「ハイランドの湯」，滑完直接泡湯看雪山",
-        "設有全日本最長 150 米雪上甜甜圈（Tubing Park）娛樂設施，趣味十足"
+        "Central Plaza 1130 的空中展望浴場「ハイランドスパ」，憑纜車券免費，滑完直接泡湯看雪山",
+        "150 米雪上甜甜圈（Tubing Park），不滑雪的人也有得玩"
       ],
       communitySentiment: {
         ptt: "從大町開過去真的超快！平日雪道壓得很平整，滑完直接在 Central Plaza 泡湯超爽。",
@@ -409,7 +409,7 @@ const HAKUBA_DATA = {
   drivingTips: {
     route: "大町市街 ➔ 國道 148 號（白馬街道）➔ 北上各雪場",
     blackIceWarning: "仁科三湖（木崎湖、中綱湖、青木湖）與佐野坂峠一帶，湖畔濕氣重且山壁背陽，極易形成透明「黑冰（Black Ice）」。務必保持車距，切忌急踩煞車！",
-    vehicleReq: "必須預約 4WD（四輪驅動）搭配全套無釘防滑雪胎（Studless Tires）。8 人自駕建議租兩台 4WD 休旅車（比 10 人座大車靈活安全）。",
+    vehicleReq: "長野雪路依法必須使用無釘雪胎或雪鏈；4WD 是強烈建議而非法規要求。8 人建議租兩台 4WD 休旅車，比 10 人座大車靈活安全。",
     departureTime: "平日清晨 07:00–08:00 路上會有鏟雪車緩慢作業，建議抓早 07:30 前出發，避免卡在車隊後方。"
   },
   rentals: [
@@ -419,7 +419,7 @@ const HAKUBA_DATA = {
       badge: "🇹🇼 中文服務 & 性價比首選",
       badgeType: "recommended",
       tagline: "全繁中LINE客服、前一天14:00免費提前取板、支援民宿乾燥室拍照免還板",
-      price3Day: "約 ¥12,000 – ¥14,500 / 3天（單/雙板標準套裝）",
+      price3Day: "¥16,500 / 3 天（標準套裝 ¥5,500/日；10/31 前線上預約 8 折約 ¥13,200）",
       highlights: [
         "【全繁中/廣東話無障礙】：香港與台灣雪友的最愛！LINE（@sunshinehakuba）與 WhatsApp 客服中文秒回，現場試穿溝通零阻礙",
         "【前一天 14:00 免費提前取板】：8 人自駕最大福音！抵達白馬/大町當天下午即可先到白馬駅前店試鞋領板，第一天一早直衝雪場免排隊",
@@ -443,7 +443,7 @@ const HAKUBA_DATA = {
       badge: "⭐ 跨雪場換裝彈性最高",
       badgeType: "recommended",
       tagline: "全白馬分店最多！支援跨店換鞋換板與甲租乙還",
-      price3Day: "約 ¥13,000 – ¥16,000 / 3天（標準套裝）",
+      price3Day: "¥19,000 / 3 天（線上；現場 ¥21,500）",
       highlights: [
         "分店遍布各大雪場：八方尾根、岩岳、栂池高原、Echoland、和田野",
         "跨店免費更換：若第一天雪靴夾腳或想換滑雪風格，可直接在當天雪場旁的 Spicy 門市免費更換尺寸！",
@@ -453,7 +453,7 @@ const HAKUBA_DATA = {
       advancedOptions: {
         hasAdvanced: true,
         title: "⚡ 可選進階：Performance / Premium 旗艦進階款（可補差額升級）",
-        price: "3天約 ¥17,000–¥19,500（比標準款多約 ¥3,500）",
+        price: "High Performance 3 天 ¥24,300（線上；現場 ¥27,000）",
         gear: "Salomon、Atomic、Volkl 當季高階雙板；Burton、Salomon 旗艦粉雪板",
         feature: "第 1 天若租標準款覺得不夠力，第 2 天滑到栂池或八方門市可當場補差額升級 Premium 大山板！"
       },
@@ -467,7 +467,7 @@ const HAKUBA_DATA = {
       badge: "💎 頂級裝備 & Step On 系統",
       badgeType: "premium",
       tagline: "國際頂尖裝備、Burton Step On 免彎腰快穿與粉雪 Demo 板",
-      price3Day: "約 ¥16,500 – ¥18,000 / 3天（標準款）",
+      price3Day: "約 ¥21,000–¥23,000 / 3 天（由 5 天 ¥33,800 推算）",
       highlights: [
         "裝備極新：Burton、Salomon、K2、Jones、Armada 最新季款式",
         "全英文親切服務，店內提供專業高科技足型測量與熱塑雪靴調整",
@@ -482,29 +482,29 @@ const HAKUBA_DATA = {
       },
       pros: "裝備保養極佳、顏值最高、想體驗頂級滑行感首選",
       cons: "價格屬於白馬最高一檔，旺季門市需提早預約",
-      bookingUrl: "https://www.rhythmjapan.com/locations/hakuba/"
+      bookingUrl: "https://rhythmjapan.com/rhythm-happo-hakuba"
     },
     {
       id: "central",
       name: "Central Snowsports",
       badge: "🚀 八方纜車直達 & 專業野雪板",
       badgeType: "premium",
-      tagline: "八方 Gondola 站前直達，粉雪板與野雪裝備庫存豐富",
-      price3Day: "約 ¥14,500 – ¥16,500 / 3天（標準款）",
+      tagline: "八方纜車站步行 2 分鐘，Demo 粉雪板庫存豐富",
+      price3Day: "約 ¥19,000 / 3 天（由 5 天約 ¥31,000 推算）",
       highlights: [
-        "地理位置無敵：八方纜車站正對面，租完轉身直接搭纜車上山",
+        "八方纜車站步行約 2 分鐘，另有 Echoland、和田野店",
         "線上預約享早鳥折扣，支援住宿接送服務"
       ],
       advancedOptions: {
         hasAdvanced: true,
-        title: "🚀 可選進階：Unlimited Swaps（無限更換）Demo 系列 ＋ 手工熱蠟",
+        title: "可選進階：Demo / Premium 系列（無限換板）",
         price: "3天約 ¥17,500–¥21,000",
-        gear: "K2、Nitro、Faction、Jones 大山粉雪板與特技公園板，含每日專業高溫熱蠟（Hot Waxing Tuning）",
+        gear: "K2、Nitro、Faction、Jones 大山粉雪板與公園板；標準款第一次換板免費，之後每次 ¥1,500",
         feature: "八方纜車站前直達！每天看窗外降雪量，早上直接進店挑當天最合適的板型，天天免費無限換"
       },
       pros: "去八方尾根最省力，進階高手想試乘各種粉雪板首選",
       cons: "若不滑八方尾根，需把雪具搬上車載運",
-      bookingUrl: "https://centralsnowsports.com.au/hakuba"
+      bookingUrl: "https://hakuba.centralsnowsports.com.au/"
     },
     {
       id: "woody",
@@ -512,10 +512,10 @@ const HAKUBA_DATA = {
       badge: "💰 小資高 CP 值老字號",
       badgeType: "budget",
       tagline: "白馬在地平價老字號，比大連鎖店便宜 15–20%",
-      price3Day: "約 ¥11,000 – ¥13,000 / 3天（超實惠標準款）",
+      price3Day: "約 ¥15,000–¥16,000 / 3 天（¥7,000/日起；5 天 ¥26,300）",
       highlights: [
         "白馬村老牌在地經營，價格親民實惠，省錢首選",
-        "八方、岩岳周邊設有店鋪，工作人員親切質樸",
+        "三間店都在八方一帶（含名木山），工作人員親切質樸",
         "初學者套裝性價比極高，雪衣雪褲尺碼齊全"
       ],
       advancedOptions: {
@@ -526,8 +526,8 @@ const HAKUBA_DATA = {
         feature: "比大型連鎖店的進階款便宜約 ¥3,000–¥4,000，適合想升級裝備又注重預算的進階者"
       },
       pros: "租金最划算，8 人同行能大幅節省租具開銷",
-      cons: "裝備年式較大連鎖店稍舊，無跨區連鎖換裝點",
-      bookingUrl: "https://woody-rental.com/"
+      cons: "裝備年式較大連鎖店稍舊；店只在八方，岩岳、栂池沒有門市",
+      bookingUrl: "https://rentalshop-woody.jp/"
     }
   ]
 };

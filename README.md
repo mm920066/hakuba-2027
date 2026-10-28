@@ -4,10 +4,11 @@
 > 📅 **滑雪日期**：2027 年 1 月 18 日（一）至 1 月 20 日（三），全平日 3 天  
 > 🚗 **交通模式**：長野縣大町市出發，自駕 4WD 休旅車北上（避開接駁車人潮）  
 > ❄️ **氣候考量**：2026–27 聖嬰年抗暖冬選場策略  
-> 🎨 **視覺風格**：Style C 溫潤石墨極簡暖金（Cozy Aprés & Minimalist Graphite）  
+> 🎨 **視覺風格**：Pinned-Poster 極簡海報美學（由同伴 PR #1 升級，附「我是誰」分區切換與即時票價試算）  
 
 🌐 **線上即時互動指南網頁**：[https://mm920066.github.io/hakuba-2027/](https://mm920066.github.io/hakuba-2027/)  
 📑 **完整深度評估與攻略文件**：[hakuba_resorts.md](hakuba_resorts.md)  
+🏛️ **舊版備存（Style C 溫潤石墨版）**：[https://mm920066.github.io/hakuba-2027/v1/](https://mm920066.github.io/hakuba-2027/v1/)  
 
 ---
 

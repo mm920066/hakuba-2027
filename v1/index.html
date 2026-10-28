@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <title>白馬滑雪 2027｜8人同行・精選 6 大雪場指南・自駕攻略與雪具租賃</title>
+  <meta name="description" content="2027/1/18–1/20 白馬山谷 8 人混合程度滑雪企劃：大町自駕、精選 6 大雪場評估、WAmazing/SURF&SNOW早鳥比價、各雪場分流玩法手冊、白馬雪具租賃指南。">
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
+  <!-- App Stylesheet (Style C: Cozy Aprés & Minimalist Graphite, with Cache-Buster) -->
+  <link rel="stylesheet" href="style.css?v=20270118_f">
+
+  <!-- Mobile Web App & Home Screen Shortcut Settings -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="白馬滑雪2027">
+  <meta name="theme-color" content="#121418">
+  <link rel="apple-touch-icon" href="https://img.icons8.com/color/192/skiing.png">
+</head>
+<body>
+
+  <!-- Hero Header -->
+  <header class="hero">
+    <div class="container">
+      <div class="hero-badge-wrap">
+        <span class="hero-pill">👥 8 人同行（新手至進階）</span>
+        <span class="hero-pill">📅 2027/1/18(一) – 1/20(三) 全平日</span>
+        <span class="hero-pill drive">🚗 長野縣大町市自駕出發</span>
+        <span class="hero-pill alert-elnino">❄️ 2026–27 聖嬰暖冬抗暖對策</span>
+      </div>
+
+      <h1>白馬山谷（Hakuba Valley）滑雪深度企劃</h1>
+      <p>
+        專為 8 人不同程度打造的高效自駕手冊。精選白馬 6 大實力派雪場（含風景絕美的鹿島槍），<strong>聚焦交通與不同程度成員在各雪場的推薦分區玩樂攻略</strong>，搭配早鳥票比價與雪具租借推薦！
+      </p>
+
+      <!-- Quick Nav Buttons -->
+      <nav class="nav-bar">
+        <button class="nav-btn active" data-target="map-section">🗺️ 免費暗黑地圖</button>
+        <button class="nav-btn" data-target="resorts-section">🏂 精選 6 大雪場</button>
+        <button class="nav-btn" data-target="playbook-section">📖 各雪場分區玩法</button>
+        <button class="nav-btn" data-target="rental-section">🎿 雪具租賃指南</button>
+        <button class="nav-btn" data-target="calc-section">🎫 早鳥試算（省 9.4 萬日圓）</button>
+        <button class="nav-btn" data-target="drive-section">⚠️ 大町自駕安全</button>
+        <button class="nav-btn" data-target="deploy-section">📱 加到主畫面</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- 1. Interactive Map Section (100% Free Base Map without API Key) -->
+    <section id="map-section" class="map-section">
+      <div class="map-card">
+        <div class="map-header">
+          <div class="map-header-title">
+            <span>🗺️ 白馬山谷精選 6 大雪場地理分佈（由北到南）</span>
+          </div>
+          <div class="map-legend">
+            <div class="legend-item"><span class="legend-dot start"></span> <span>大町出發起點</span></div>
+            <div class="legend-item"><span class="legend-dot resort"></span> <span>精選雪場（數字 1–6 依序向南）</span></div>
+            <div class="legend-item"><span class="legend-dot route"></span> <span>國道 148 號自駕軸線</span></div>
+          </div>
+        </div>
+        <div id="map"></div>
+      </div>
+    </section>
+
+    <!-- 2. Resorts Directory Section (Pixel-Perfect Card Grid) -->
+    <section id="resorts-section" class="resorts-section">
+      <div class="controls-wrap">
+        <div class="filter-group">
+          <button class="filter-chip active" data-filter="all">全部精選 (6)</button>
+          <button class="filter-chip" data-filter="beginner">🔰 新手友善 (★4以上)</button>
+          <button class="filter-chip" data-filter="powder">❄️ 粉雪天花板 (★4.5以上)</button>
+          <button class="filter-chip" data-filter="advanced">⚡ 進階大山挑戰 (★4.5以上)</button>
+          <button class="filter-chip" data-filter="scenery">🏞️ 絕美湖景/展望 (★5滿分)</button>
+        </div>
+
+        <div class="sort-search-group">
+          <input type="text" id="search-input" class="search-input" placeholder="🔍 搜尋雪場、早鳥、特色...">
+          <select id="sort-select" class="sort-select">
+            <option value="north-south">由北到南 (#1 → #6)</option>
+            <option value="earlybird">早鳥票價（由低到高）</option>
+            <option value="distance">大町車程（由近到遠）</option>
+            <option value="elevation">山頂海拔（由高到低）</option>
+            <option value="beginner">新手友善度（由高到低）</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Resort Cards Grid (Strict horizontal alignment) -->
+      <div id="resorts-grid" class="resorts-grid">
+        <!-- Rendered by app.js -->
+      </div>
+    </section>
+
+    <!-- 3. Resort Playbooks Section (Replaced old meal/timetable with Member Zone Split & Transport) -->
+    <section id="playbook-section" class="playbook-section">
+      <div class="section-title-wrap">
+        <h2 class="section-title">📖 6 大雪場「預計怎麼玩」分流攻略手冊</h2>
+        <p class="section-subtitle">無排程約束，聚焦交通路線與不同取向成員（初學/中級/進階粉雪/絕景放鬆）的具體推薦分區</p>
+      </div>
+
+      <!-- Resort Selector Tabs -->
+      <div id="playbook-resort-tabs" class="playbook-tabs-wrap">
+        <!-- Rendered by app.js -->
+      </div>
+
+      <!-- Active Resort Playbook Container -->
+      <div id="playbook-resort-content">
+        <!-- Rendered by app.js -->
+      </div>
+    </section>
+
+    <!-- 4. Ski Rentals Section (雪具租賃指南) -->
+    <section id="rental-section" class="rental-section">
+      <div class="section-title-wrap">
+        <h2 class="section-title">🎿 白馬雪具租賃指南與店舖推薦</h2>
+        <p class="section-subtitle">8人自駕團隊雙雄對決：【Sunshine日和】中文服務+提早取板 vs 【Spicy】全白馬跨店換鞋</p>
+      </div>
+
+      <div id="rentals-grid" class="rental-grid">
+        <!-- Rendered by app.js -->
+      </div>
+
+      <!-- Rental Pro Tips for 8 People -->
+      <div style="background: rgba(0, 0, 0, 0.3); border: 1px solid var(--border-glass); border-radius: var(--radius-md); padding: 22px;">
+        <h4 style="color: var(--accent-gold); font-size: 1.05rem; font-weight: 700; margin-bottom: 12px;">
+          💡 8 人自駕租雪具決策建議（大町出發）
+        </h4>
+        <ul class="modal-highlight-list" style="margin-bottom: 0;">
+          <li><strong>首選 A【Sunshine Hakuba（日和Rental）】— 中文溝通 & 提前取板神技</strong>：香港/台灣雪友評價最高（LINE 即時中文客服），且<strong>可於出發前一天 14:00 後免費提前至白馬駅前店取板試鞋</strong>！第一天早上 07:30 直接從大町開車直奔雪場，完全不用一大早在雪場租具店排隊人擠人；滑完最後一天還能將雪具留在民宿乾燥室拍照退還。</li>
+          <li><strong>首選 B【Spicy Rentals】— 跨雪場即時換鞋換板</strong>：因為我們 3 天會去不同雪場，Spicy 在栂池、岩岳、八方都有大型門市。同行新手第一天滑完若雪靴夾腳或單板想換雙板，隔天在當天雪場旁的門市即可免費換尺寸，不用特地繞路回原店！</li>
+          <li><strong>想體驗免彎腰快穿【Rhythm Japan】</strong>：若同行有單板朋友不想一直坐雪地穿脫固定器，可指名預訂 Burton Step On 快穿系統。</li>
+          <li><strong>車輛載運空間注意</strong>：8 人若租兩台 4WD 休旅車（各坐 4 人），後車廂放 4 副雪板+行李較為充裕；若有人想省事，也可考慮雪具放置於店家（Spicy/Central 有提供免費雪具寄存）。</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 5. Ticket Strategy & Calculator Section (Mobile-Protected) -->
+    <section id="calc-section" class="calculator-section">
+      <div class="section-title-wrap">
+        <h2 class="section-title">🎫 早鳥票試算器：打破「全山券」迷思</h2>
+        <p class="section-subtitle">針對精選雪場的最便宜早鳥票組合，與昂貴的 Hakuba Valley 全山券正面對決！</p>
+      </div>
+
+      <div class="calc-card">
+        <div class="calc-comparison-grid">
+
+          <!-- Plan A: Resort Early Bird -->
+          <div class="plan-card plan-resorts">
+            <div class="plan-header">
+              <span class="plan-badge">✅ 最推薦！早鳥獨立購票</span>
+              <h3 class="plan-title">提前購買各雪場早鳥票（早割）</h3>
+            </div>
+            <div class="plan-price-block">
+              <div class="price-big" id="calc-single-total">¥163,200</div>
+              <div class="price-sub">8 人 3 天總花費（平均每人僅約 ¥19,300–¥20,400）</div>
+            </div>
+            <ul class="plan-list">
+              <li><span class="plan-list-icon">✔</span><span>栂池（早鳥 <strong>¥6,500</strong>，SURF&SNOW / WAmazing 搶購）</span></li>
+              <li><span class="plan-list-icon">✔</span><span>八方尾根（早鳥平均 <strong>¥8,300</strong>，WAmazing / Snownavi 搶購）</span></li>
+              <li><span class="plan-list-icon">✔</span><span>Cortina（<strong>¥5,500</strong>）/ 岩岳（<strong>¥5,700</strong>）/ 鹿島槍（<strong>¥4,500</strong>）</span></li>
+              <li><span class="plan-list-icon">✔</span><span>彈性最高，不用連續使用，免換場舟車勞頓</span></li>
+            </ul>
+          </div>
+
+          <!-- Plan B: All Valley Pass -->
+          <div class="plan-card plan-pass">
+            <div class="plan-header">
+              <span class="plan-badge">❌ 不划算！全山共通券</span>
+              <h3 class="plan-title">Hakuba Valley 全山 3 日共通券</h3>
+            </div>
+            <div class="plan-price-block">
+              <div class="price-big" id="calc-pass-total">¥257,600</div>
+              <div class="price-sub">8 人 3 天總花費（成人每人固定 ¥32,200）</div>
+            </div>
+            <ul class="plan-list">
+              <li><span class="plan-list-icon">✖</span><span>需連續 3 日使用，天候不佳或中途休滑無法退費</span></li>
+              <li><span class="plan-list-icon">✖</span><span>溢價包含了接駁巴士費用（本團自駕完全享受不到）</span></li>
+              <li><span class="plan-list-icon">✖</span><span>自駕換場需重新著裝拆雪板，一日換場極不切實際</span></li>
+              <li><span class="plan-list-icon">✖</span><span>8 人同行比買早鳥票整整多花接近 10 萬日圓</span></li>
+            </ul>
+          </div>
+
+        </div>
+
+        <!-- Dynamic Controls (Mobile-Responsive Flex) -->
+        <div class="calc-controls-wrap">
+          <div class="calc-control-item">
+            <label>同行人數：</label>
+            <input type="range" id="calc-people" min="1" max="12" value="8">
+            <span id="calc-people-val">8 人</span>
+          </div>
+          <div class="calc-control-item">
+            <label>滑雪天數：</label>
+            <input type="range" id="calc-days" min="1" max="3" value="3">
+            <span id="calc-days-val">3 天</span>
+          </div>
+        </div>
+
+        <!-- Savings Banner (Mobile-Responsive Column) -->
+        <div class="calc-savings-banner">
+          <div class="calc-savings-info">
+            <div class="savings-text">💰 8 人選擇「精選早鳥票方案」預估總省下：</div>
+            <div class="savings-subtext">省下的費用能讓 8 個人在白馬享受一頓奢華信州黑毛和牛居酒屋大餐！</div>
+          </div>
+          <div class="calc-savings-result">
+            <div class="savings-amount" id="calc-savings-total">¥94,400</div>
+            <div class="savings-twd" id="calc-savings-twd">約 NT$ 20,300</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Winter Drive & Safety Section -->
+    <section id="drive-section" class="drive-section">
+      <div class="section-title-wrap">
+        <h2 class="section-title">⚠️ 大町出發冬季自駕安全須知</h2>
+        <p class="section-subtitle">國道 148 號黑冰熱點防範與 8 人行車守則</p>
+      </div>
+
+      <div class="drive-card">
+        <div class="drive-grid">
+          <div class="drive-item">
+            <div class="drive-item-icon">⚠️</div>
+            <h4 class="drive-item-title">佐野坂峠與仁科三湖黑冰</h4>
+            <p class="drive-item-desc">
+              國道 148 號經由木崎湖、中綱湖、青木湖至佐野坂峠段，因水氣充足且山壁背陽，極易產生肉眼看似柏油反光的<strong>透明黑冰（Black Ice）</strong>。下坡與過彎請提早收油門降速，嚴禁急踩急煞！
+            </p>
+          </div>
+
+          <div class="drive-item">
+            <div class="drive-item-icon">🚙</div>
+            <h4 class="drive-item-title">租車必選 4WD ＋ 無釘雪胎</h4>
+            <p class="drive-item-desc">
+              長野冬季山區道路法規強制要求雪胎。8 人同行強烈建議租<strong>兩台 4WD 休旅車（如 Sienta / Freed / RAV4）</strong>，切勿租一台 10 人座大箱型車（Hiace 在雪地陡坡起步極易打滑空轉且重心偏高）。
+            </p>
+          </div>
+
+          <div class="drive-item">
+            <div class="drive-item-icon">⏰</div>
+            <h4 class="drive-item-title">出發時間避開除雪車隊</h4>
+            <p class="drive-item-desc">
+              平日清晨 07:00–08:00 是長野縣公所鏟雪車作業的高峰期，若卡在鏟雪車後方行車速度僅約 20 km/h。建議<strong>每日清晨 07:30 前準時從大町出發</strong>，一路暢行直達雪場停車場。
+            </p>
+          </div>
+
+          <div class="drive-item">
+            <div class="drive-item-icon">⛽</div>
+            <h4 class="drive-item-title">大町加滿油與雨刷水</h4>
+            <p class="drive-item-desc">
+              大町市區加油站比白馬村內便宜且營業時間長。出發前務必確認雨刷水更換為<strong>防凍型玻璃水（-20°C以上）</strong>，以免噴水孔結凍造成行車視線模糊危險。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. Mobile Home Screen Shortcut Section (加到手機主畫面) -->
+    <section id="deploy-section" class="deploy-guide-section">
+      <div class="section-title-wrap">
+        <h2 class="section-title">📱 加到手機主畫面（像 App 一樣隨開即用）</h2>
+        <p class="section-subtitle">免去商店下載！只需 5 秒將本指南加入手機桌面，全螢幕無干擾，每次點開自動同步最新資訊</p>
+      </div>
+
+      <div class="deploy-card">
+        <!-- Mobile Home Screen Steps -->
+        <div class="deploy-step-box" style="border-left-color: #10b981; margin-bottom: 18px;">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+            <strong style="color:#34d399; font-size:1.15rem;">📲 雙系統 5 秒加入手機桌面步驟</strong>
+            <span style="font-size:0.75rem; background:rgba(16,185,129,0.2); color:#6ee7b7; padding:2px 8px; border-radius:9999px;">全團必備</span>
+          </div>
+          
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin-bottom: 12px;">
+            <!-- iPhone -->
+            <div style="background: rgba(0, 0, 0, 0.25); padding: 16px; border-radius: var(--radius-sm); border: 1px solid rgba(255, 255, 255, 0.06);">
+              <h4 style="color: #fff; font-size: 0.95rem; margin-bottom: 8px; display: flex; align-items: center; gap: 6px;">
+                🍎 <strong>iPhone（Safari 瀏覽器）</strong>
+              </h4>
+              <ol style="margin: 0; padding-left: 18px; font-size: 0.86rem; color: var(--text-muted); line-height: 1.65;">
+                <li>在 Safari 打開本網站</li>
+                <li>點螢幕正下方「<strong>分享按鈕</strong>」（方形帶向上箭頭 ⎋）</li>
+                <li>往下滑動點選「<strong>加入主畫面</strong>」</li>
+                <li>點右上角「<strong>新增</strong>」即完成！</li>
+              </ol>
+            </div>
+
+            <!-- Android -->
+            <div style="background: rgba(0, 0, 0, 0.25); padding: 16px; border-radius: var(--radius-sm); border: 1px solid rgba(255, 255, 255, 0.06);">
+              <h4 style="color: #fff; font-size: 0.95rem; margin-bottom: 8px; display: flex; align-items: center; gap: 6px;">
+                🤖 <strong>Android（Chrome 瀏覽器）</strong>
+              </h4>
+              <ol style="margin: 0; padding-left: 18px; font-size: 0.86rem; color: var(--text-muted); line-height: 1.65;">
+                <li>在 Chrome 打開本網站</li>
+                <li>點螢幕右上角「<strong>三個點選單（⋮）</strong>」</li>
+                <li>點選「<strong>加到主畫面</strong>」或「<strong>安裝應用程式</strong>」</li>
+                <li>點「<strong>新增 / 安裝</strong>」即完成！</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+
+        <!-- Real-time Sync Benefit Box -->
+        <div style="background: rgba(245, 158, 11, 0.08); border-radius: var(--radius-sm); padding: 16px 18px; border: 1px solid rgba(245, 158, 11, 0.25); font-size: 0.88rem; color: #fde68a; line-height: 1.6;">
+          <div style="font-weight: 700; color: var(--accent-gold); margin-bottom: 6px; display: flex; align-items: center; gap: 6px; font-size: 0.95rem;">
+            <span>✨</span> <span>加到主畫面後，會持續自動更新嗎？</span>
+          </div>
+          <div>
+            <strong>會！而且完全自動！</strong> 手機桌面圖示本質是全螢幕 Web App，已內建無快取標頭。每次大家從手機主畫面點開圖示，系統都會自動聯網抓取最新的雪況、早鳥票與租具資訊，<strong>完全不需要重新加入或手動更新，也絕不會卡在舊快取！</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Modal for Resort Details -->
+  <div id="resort-modal" class="modal-overlay">
+    <div class="modal-container">
+      <div class="modal-header">
+        <div>
+          <h2 id="modal-resort-name" style="font-size: 1.5rem; color: #fff; margin-bottom: 4px;">雪場名稱</h2>
+          <div id="modal-resort-sub" style="font-size: 0.85rem; color: var(--accent-gold);">副標題與資訊</div>
+        </div>
+        <button id="modal-close-btn" class="modal-close-btn">&times;</button>
+      </div>
+
+      <div class="modal-tabs">
+        <button class="modal-tab active" data-tab="overview">📌 概況與雪道</button>
+        <button class="modal-tab" data-tab="drive">🚗 自駕與停車</button>
+        <button class="modal-tab" data-tab="elnino">❄️ 聖嬰雪況推估</button>
+        <button class="modal-tab" data-tab="community">💬 社群心得整理</button>
+        <button class="modal-tab" data-tab="pricing">🎫 2026–27 早鳥票價</button>
+      </div>
+
+      <div class="modal-body">
+        <div id="tab-overview" class="tab-pane active"></div>
+        <div id="tab-drive" class="tab-pane"></div>
+        <div id="tab-elnino" class="tab-pane"></div>
+        <div id="tab-community" class="tab-pane"></div>
+        <div id="tab-pricing" class="tab-pane"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p style="margin-bottom: 6px;">
+        白馬山谷（Hakuba Valley）滑雪深度企劃・2027 聖嬰年自駕實用指南（Style C 溫潤石墨版）
+      </p>
+      <p style="font-size: 0.78rem;">
+        早鳥與租具來源：WAmazing Snow (完美行)、SURF&SNOW、Winter Plus、Spicy Rentals、Rhythm Japan、Central Snowsports
+      </p>
+    </div>
+  </footer>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+  <!-- App Data and Logic (With Cache Busting Parameters) -->
+  <script src="data.js?v=20270118_f"></script>
+  <script src="app.js?v=20270118_f"></script>
+</body>
+</html>

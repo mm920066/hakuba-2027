@@ -1,0 +1,3473 @@
+{
+ "url": "index.html",
+ "at": "2026-10-28T09:51:19.621Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    1,
+    1,
+    0.8,
+    0.34,
+    0.87,
+    1,
+    1,
+    0.63,
+    0.39,
+    0.93,
+    0.59,
+    1
+   ],
+   "motion": {
+    "elements": 48,
+    "css": 25,
+    "transitions": 10,
+    "scripted": 13,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 11617,
+     "screens": 12.9,
+     "words": 459,
+     "img": 24,
+     "video": 0,
+     "canvas": 0,
+     "svg": 4,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 1,
+     "uiAbuse": false,
+     "realPictures": 12,
+     "videoCount": 0,
+     "uiPictures": 1,
+     "pictureSamples": [
+      "hakuba-cortina-kokusai-ski-resort.jpg",
+      "tsugaike-kogen-ski-resort-8353157614.jpg",
+      "hakuba-iwatake-snow-field-2.jpg",
+      "usagidaira.jpg",
+      "sun-alpina-kashimayari-ski-resort.jpg",
+      "hakuba-happo-one-winter-resort.jpg",
+      "hakuba-cortina-kokusai-ski-resort.jpg",
+      "tsugaike-kogen-ski-resort-8353157614.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "白馬 2027",
+     "words": 2,
+     "chars": 7,
+     "lines": 1,
+     "size": 194.4,
+     "vw": 13.5,
+     "font": "Noto Sans TC",
+     "weight": 900,
+     "tracking": -0.035,
+     "leading": 0.92,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "center",
+     "position": "center",
+     "widthRatio": 1,
+     "top": 112,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "白馬 2027",
+     "words": 2,
+     "lines": 1,
+     "size": 194.4,
+     "font": "Noto Sans TC"
+    },
+    "headings": [
+     {
+      "text": "白馬 2027",
+      "words": 2,
+      "chars": 7,
+      "lines": 1,
+      "size": 194.4,
+      "vw": 13.5,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": -0.035,
+      "leading": 0.92,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 1,
+      "top": 112,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "2026 到 27 是聖嬰年，氣象廳預報日本海側的雪偏少。所以我們挑山頂高、下雪後最快積起來的雪場，出發前兩週再看一次雪況。",
+      "words": 4,
+      "chars": 62,
+      "lines": 3,
+      "size": 28.8,
+      "vw": 2,
+      "font": "Noto Serif TC",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.32,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.47,
+      "top": 2917,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "六個雪場 由北到南",
+      "words": 2,
+      "chars": 9,
+      "lines": 2,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.39,
+      "top": 4040,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "八方尾根",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 43.2,
+      "vw": 3,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.25,
+      "top": 4375,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Cortina",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 43.2,
+      "vw": 3,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.25,
+      "top": 4533,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "乘鞍溫泉",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 43.2,
+      "vw": 3,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.25,
+      "top": 4533,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "栂池高原",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 43.2,
+      "vw": 3,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.25,
+      "top": 4533,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "岩岳",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 43.2,
+      "vw": 3,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.25,
+      "top": 4533,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "鹿島槍",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 43.2,
+      "vw": 3,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.25,
+      "top": 4533,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "從大町開上去",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.47,
+      "top": 6184,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "票，一天買一張",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.97,
+      "top": 7198,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "¥19,300",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 86.4,
+      "vw": 6,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "right",
+      "widthRatio": 0.23,
+      "top": 7471,
+      "tag": "output",
+      "kind": "statement"
+     },
+     {
+      "text": "三天的票",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.32,
+      "top": 7471,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "八個人，省下來的日圓",
+      "words": 1,
+      "chars": 10,
+      "lines": 1,
+      "size": 43.2,
+      "vw": 3,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.97,
+      "top": 8228,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "10.3",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 331.2,
+      "vw": 23,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": -0.04,
+      "leading": 0.8,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.46,
+      "top": 8384,
+      "tag": "output",
+      "kind": "statement"
+     },
+     {
+      "text": "租雪具，五家",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 43.2,
+      "vw": 3,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.97,
+      "top": 9044,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Sunshine Hakuba 中文 LINE，先拿板 ¥16,500 白馬站前",
+      "words": 6,
+      "chars": 40,
+      "lines": 1,
+      "size": 43.2,
+      "vw": 3,
+      "font": "Noto Serif TC",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.97,
+      "top": 9116,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Spicy Rentals 八方岩岳栂池，跨店換 ¥19,000 五間店",
+      "words": 5,
+      "chars": 36,
+      "lines": 1,
+      "size": 43.2,
+      "vw": 3,
+      "font": "Noto Serif TC",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.97,
+      "top": 9181,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Rhythm Japan Step On，頂級 Demo 約 ¥22,000 八方",
+      "words": 8,
+      "chars": 41,
+      "lines": 1,
+      "size": 43.2,
+      "vw": 3,
+      "font": "Noto Serif TC",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.97,
+      "top": 9246,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Central Snowsports 八方纜車站旁 約 ¥19,000 八方",
+      "words": 6,
+      "chars": 38,
+      "lines": 1,
+      "size": 43.2,
+      "vw": 3,
+      "font": "Noto Serif TC",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.97,
+      "top": 9310,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Woody 在地便宜 約 ¥15,000 八方",
+      "words": 5,
+      "chars": 23,
+      "lines": 1,
+      "size": 43.2,
+      "vw": 3,
+      "font": "Noto Serif TC",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.97,
+      "top": 9375,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "雪場",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 37.4,
+      "vw": 2.6,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.38,
+      "top": 10797,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "開車",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 37.4,
+      "vw": 2.6,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.38,
+      "top": 10862,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "票",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 37.4,
+      "vw": 2.6,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.38,
+      "top": 10928,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "租具",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 37.4,
+      "vw": 2.6,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.38,
+      "top": 10993,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "問答",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 37.4,
+      "vw": 2.6,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.38,
+      "top": 11059,
+      "tag": "li",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 26,
+     "maxLines": 3,
+     "over2Lines": 0,
+     "statements": 9,
+     "centered": 2,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Noto Serif TC",
+       "share": 0.91,
+       "mono": false
+      },
+      {
+       "family": "Noto Sans TC",
+       "share": 0.09,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      17,
+      19,
+      26,
+      29,
+      37,
+      43,
+      64,
+      86,
+      109,
+      194,
+      331
+     ],
+     "sizeCount": 12,
+     "notLoaded": [],
+     "body": {
+      "font": "Noto Serif TC",
+      "size": 19,
+      "leading": 1.4,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 6.5
+     },
+     "measureChars": 78,
+     "max": {
+      "size": 331.2,
+      "vw": 23,
+      "font": "Noto Sans TC",
+      "text": "10.3"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.04,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#b3b7bb",
+     "bodyBgHsl": {
+      "h": 210,
+      "s": 0.06,
+      "l": 0.72
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#7c8890",
+       "top": 0,
+       "hsl": {
+        "h": 204,
+        "s": 0.08,
+        "l": 0.53
+       }
+      },
+      {
+       "color": "#c0c4c8",
+       "top": 86,
+       "hsl": {
+        "h": 210,
+        "s": 0.07,
+        "l": 0.77
+       }
+      },
+      {
+       "color": "#1a1b1d",
+       "top": 3710,
+       "hsl": {
+        "h": 220,
+        "s": 0.05,
+        "l": 0.11
+       }
+      },
+      {
+       "color": "#46525b",
+       "top": 3880,
+       "hsl": {
+        "h": 206,
+        "s": 0.13,
+        "l": 0.32
+       }
+      },
+      {
+       "color": "#3f5250",
+       "top": 3880,
+       "hsl": {
+        "h": 174,
+        "s": 0.13,
+        "l": 0.28
+       }
+      },
+      {
+       "color": "#414d59",
+       "top": 3880,
+       "hsl": {
+        "h": 210,
+        "s": 0.16,
+        "l": 0.3
+       }
+      },
+      {
+       "color": "#46534a",
+       "top": 3880,
+       "hsl": {
+        "h": 138,
+        "s": 0.08,
+        "l": 0.3
+       }
+      },
+      {
+       "color": "#3d4851",
+       "top": 3880,
+       "hsl": {
+        "h": 207,
+        "s": 0.14,
+        "l": 0.28
+       }
+      },
+      {
+       "color": "#475252",
+       "top": 3880,
+       "hsl": {
+        "h": 180,
+        "s": 0.07,
+        "l": 0.3
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0f1113",
+       "share": 0.5
+      },
+      {
+       "color": "#e6e6e3",
+       "share": 0.14
+      },
+      {
+       "color": "#f1f1ef",
+       "share": 0.13
+      },
+      {
+       "color": "#a9aaa6",
+       "share": 0.12
+      },
+      {
+       "color": "#141414",
+       "share": 0.09
+      }
+     ],
+     "button": {
+      "bg": "#1f5c49",
+      "hsl": {
+       "h": 161,
+       "s": 0.5,
+       "l": 0.24
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 2,
+     "radius": 0,
+     "height": 42,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "買早鳥票",
+      "看六個雪場"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 21,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.37
+     },
+     {
+      "type": "img",
+      "ratio": 0.34
+     }
+    ],
+    "nav": {
+     "links": 7,
+     "fixed": false,
+     "height": 2520,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "noto sans tc",
+     "noto serif tc"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 11617,
+    "margins": {
+     "left": 24,
+     "right": 24
+    },
+    "sections": [
+     {
+      "sel": "header#top.hero",
+      "tag": "header",
+      "top": 0,
+      "height": 2520,
+      "words": 26,
+      "media": 1,
+      "middle": 58,
+      "heading": {
+       "text": "白馬 2027",
+       "size": 194,
+       "tag": "h1"
+      },
+      "left": 24,
+      "right": 42,
+      "textLeft": 24,
+      "textRight": 42,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": true
+     },
+     {
+      "sel": "section#why.intro",
+      "tag": "section",
+      "top": 2520,
+      "height": 1190,
+      "words": 25,
+      "media": 1,
+      "middle": 55,
+      "heading": {
+       "text": "2026 到 27 是聖嬰年，氣象廳預報日本海側的雪偏少。所以我們挑山頂高、下雪後最快積起來的雪場，",
+       "size": 29,
+       "tag": "p"
+      },
+      "left": 24,
+      "right": 44,
+      "textLeft": 24,
+      "textRight": 44,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#resorts.stage",
+      "tag": "section",
+      "top": 3710,
+      "height": 2250,
+      "words": 15,
+      "media": 7,
+      "middle": 2984,
+      "heading": {
+       "text": "六個雪場",
+       "size": 64,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 0,
+      "textLeft": 24,
+      "textRight": 0,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": true
+     },
+     {
+      "sel": "section#drive.drive",
+      "tag": "section",
+      "top": 5960,
+      "height": 1114,
+      "words": 67,
+      "media": 13,
+      "middle": 56,
+      "heading": {
+       "text": "從大町開上去",
+       "size": 64,
+       "tag": "h2"
+      },
+      "left": 0,
+      "right": 170,
+      "textLeft": 24,
+      "textRight": 170,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#tickets.tickets",
+      "tag": "section",
+      "top": 7074,
+      "height": 1051,
+      "words": 39,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "¥19,300",
+       "size": 86,
+       "tag": "output"
+      },
+      "left": 24,
+      "right": 283,
+      "textLeft": 24,
+      "textRight": 283,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#saving.saving",
+      "tag": "section",
+      "top": 8124,
+      "height": 824,
+      "words": 18,
+      "media": 0,
+      "middle": 446,
+      "heading": {
+       "text": "10.3",
+       "size": 331,
+       "tag": "output"
+      },
+      "left": 24,
+      "right": 24,
+      "textLeft": 24,
+      "textRight": 24,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#rental.rental",
+      "tag": "section",
+      "top": 8948,
+      "height": 695,
+      "words": 44,
+      "media": 0,
+      "middle": 85,
+      "heading": {
+       "text": "租雪具，五家",
+       "size": 43,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 24,
+      "textLeft": 24,
+      "textRight": 24,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#faq.faq",
+      "tag": "section",
+      "top": 9643,
+      "height": 1074,
+      "words": 92,
+      "media": 0,
+      "middle": 369,
+      "heading": {
+       "text": "先回答的",
+       "size": 26,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 75,
+      "textLeft": 24,
+      "textRight": 75,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer#foot.foot",
+      "tag": "footer",
+      "top": 10717,
+      "height": 900,
+      "words": 68,
+      "media": 1,
+      "middle": 148,
+      "heading": {
+       "text": "雪場",
+       "size": 37,
+       "tag": "a"
+      },
+      "left": 0,
+      "right": 25,
+      "textLeft": 868,
+      "textRight": 25,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 7948,
+      "height": 272
+     },
+     {
+      "top": 9548,
+      "height": 312
+     }
+    ],
+    "h1s": [
+     {
+      "text": "白馬 2027",
+      "size": 194,
+      "top": 112,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 24,
+      "n": 11
+     },
+     {
+      "x": 497,
+      "n": 4
+     },
+     {
+      "x": 846,
+      "n": 3
+     },
+     {
+      "x": 985,
+      "n": 3
+     },
+     {
+      "x": 734,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 23,
+    "bodySize": 19,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.14,
+    "voidBox": {
+     "x": 1020,
+     "y": 360,
+     "w": 420,
+     "h": 420
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    1,
+    1,
+    0.86,
+    0.61,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0.5,
+    0.81,
+    0.84
+   ],
+   "motion": {
+    "elements": 48,
+    "css": 31,
+    "transitions": 4,
+    "scripted": 13,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 16205,
+     "screens": 15.8,
+     "words": 454,
+     "img": 24,
+     "video": 0,
+     "canvas": 0,
+     "svg": 4,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 1,
+     "uiAbuse": false,
+     "realPictures": 11,
+     "videoCount": 0,
+     "uiPictures": 1,
+     "pictureSamples": [
+      "hakuba-cortina-kokusai-ski-resort.jpg",
+      "tsugaike-kogen-ski-resort-8353157614.jpg",
+      "hakuba-iwatake-snow-field-2.jpg",
+      "usagidaira.jpg",
+      "sun-alpina-kashimayari-ski-resort.jpg",
+      "hakuba-happo-one-winter-resort.jpg",
+      "hakuba-cortina-kokusai-ski-resort.jpg",
+      "tsugaike-kogen-ski-resort-8353157614.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "白馬 2027",
+     "words": 2,
+     "chars": 7,
+     "lines": 1,
+     "size": 103.7,
+     "vw": 13.5,
+     "font": "Noto Sans TC",
+     "weight": 900,
+     "tracking": -0.035,
+     "leading": 0.92,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "center",
+     "position": "center",
+     "widthRatio": 1,
+     "top": 112,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "白馬 2027",
+     "words": 2,
+     "lines": 1,
+     "size": 103.7,
+     "font": "Noto Sans TC"
+    },
+    "headings": [
+     {
+      "text": "白馬 2027",
+      "words": 2,
+      "chars": 7,
+      "lines": 1,
+      "size": 103.7,
+      "vw": 13.5,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": -0.035,
+      "leading": 0.92,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 1,
+      "top": 112,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "六個雪場 由北到南",
+      "words": 2,
+      "chars": 9,
+      "lines": 2,
+      "size": 69.1,
+      "vw": 9,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 4567,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Cortina",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 26,
+      "vw": 3.4,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.91,
+      "top": 5499,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "乘鞍溫泉",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 26,
+      "vw": 3.4,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.91,
+      "top": 6215,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "栂池高原",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 26,
+      "vw": 3.4,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.91,
+      "top": 6931,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "岩岳",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 26,
+      "vw": 3.4,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.91,
+      "top": 7647,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "八方尾根",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 26,
+      "vw": 3.4,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.91,
+      "top": 8363,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "鹿島槍",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 26,
+      "vw": 3.4,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.91,
+      "top": 9079,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "從大町開上去",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 9387,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "票，一天買一張",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 11041,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "三天的票",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 69.1,
+      "vw": 9,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.91,
+      "top": 11275,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "¥19,300",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 122.9,
+      "vw": 16,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.61,
+      "top": 11874,
+      "tag": "output",
+      "kind": "statement"
+     },
+     {
+      "text": "八個人，省下來的日圓",
+      "words": 1,
+      "chars": 10,
+      "lines": 1,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 12472,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "10.3",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 180,
+      "vw": 23.4,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": -0.04,
+      "leading": 0.8,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.47,
+      "top": 12902,
+      "tag": "output",
+      "kind": "statement"
+     },
+     {
+      "text": "雪場",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 61.4,
+      "vw": 8,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 15512,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "開車",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 61.4,
+      "vw": 8,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 15593,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "票",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 61.4,
+      "vw": 8,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 15675,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "租具",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 61.4,
+      "vw": 8,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 15756,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "問答",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 61.4,
+      "vw": 8,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 15838,
+      "tag": "li",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 19,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 8,
+     "centered": 2,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Noto Serif TC",
+       "share": 0.91,
+       "mono": false
+      },
+      {
+       "family": "Noto Sans TC",
+       "share": 0.09,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      15,
+      16,
+      17,
+      18,
+      22,
+      23,
+      24,
+      26,
+      32,
+      45,
+      59,
+      61,
+      69,
+      104,
+      123,
+      180
+     ],
+     "sizeCount": 17,
+     "notLoaded": [],
+     "body": {
+      "font": "Noto Serif TC",
+      "size": 16,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 10.8
+     },
+     "measureChars": 78,
+     "max": {
+      "size": 180,
+      "vw": 23.4,
+      "font": "Noto Sans TC",
+      "text": "10.3"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.04,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#b3b7bb",
+     "bodyBgHsl": {
+      "h": 210,
+      "s": 0.06,
+      "l": 0.72
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#7c8890",
+       "top": 0,
+       "hsl": {
+        "h": 204,
+        "s": 0.08,
+        "l": 0.53
+       }
+      },
+      {
+       "color": "#c0c4c8",
+       "top": 85,
+       "hsl": {
+        "h": 210,
+        "s": 0.07,
+        "l": 0.77
+       }
+      },
+      {
+       "color": "#1a1b1d",
+       "top": 3818,
+       "hsl": {
+        "h": 220,
+        "s": 0.05,
+        "l": 0.11
+       }
+      },
+      {
+       "color": "#46525b",
+       "top": 4928,
+       "hsl": {
+        "h": 206,
+        "s": 0.13,
+        "l": 0.32
+       }
+      },
+      {
+       "color": "#3f5250",
+       "top": 5644,
+       "hsl": {
+        "h": 174,
+        "s": 0.13,
+        "l": 0.28
+       }
+      },
+      {
+       "color": "#414d59",
+       "top": 6360,
+       "hsl": {
+        "h": 210,
+        "s": 0.16,
+        "l": 0.3
+       }
+      },
+      {
+       "color": "#46534a",
+       "top": 7076,
+       "hsl": {
+        "h": 138,
+        "s": 0.08,
+        "l": 0.3
+       }
+      },
+      {
+       "color": "#3d4851",
+       "top": 7792,
+       "hsl": {
+        "h": 207,
+        "s": 0.14,
+        "l": 0.28
+       }
+      },
+      {
+       "color": "#475252",
+       "top": 8508,
+       "hsl": {
+        "h": 180,
+        "s": 0.07,
+        "l": 0.3
+       }
+      },
+      {
+       "color": "#b3b7bb",
+       "top": 9609,
+       "hsl": {
+        "h": 210,
+        "s": 0.06,
+        "l": 0.72
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0f1113",
+       "share": 0.47
+      },
+      {
+       "color": "#e6e6e3",
+       "share": 0.14
+      },
+      {
+       "color": "#f1f1ef",
+       "share": 0.13
+      },
+      {
+       "color": "#a9aaa6",
+       "share": 0.12
+      },
+      {
+       "color": "#141414",
+       "share": 0.09
+      }
+     ],
+     "button": {
+      "bg": "#1f5c49",
+      "hsl": {
+       "h": 161,
+       "s": 0.5,
+       "l": 0.24
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 2,
+     "radius": 0,
+     "height": 42,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "買早鳥票",
+      "看六個雪場"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 21,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.8
+     },
+     {
+      "type": "img",
+      "ratio": 0.75
+     }
+    ],
+    "nav": {
+     "links": 7,
+     "fixed": false,
+     "height": 2867,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "noto sans tc",
+     "noto serif tc"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 16205,
+    "margins": {
+     "left": 16,
+     "right": 16
+    },
+    "sections": [
+     {
+      "sel": "header#top.hero",
+      "tag": "header",
+      "top": 0,
+      "height": 2867,
+      "words": 26,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "白馬 2027",
+       "size": 104,
+       "tag": "h1"
+      },
+      "left": 16,
+      "right": 34,
+      "textLeft": 16,
+      "textRight": 34,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": true
+     },
+     {
+      "sel": "section#why.intro",
+      "tag": "section",
+      "top": 2867,
+      "height": 951,
+      "words": 25,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "為什麼是這六個",
+       "size": 23,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 24,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#resorts.stage",
+      "tag": "section",
+      "top": 3818,
+      "height": 5438,
+      "words": 53,
+      "media": 7,
+      "middle": 0,
+      "heading": {
+       "text": "六個雪場",
+       "size": 69,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 41,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#drive.drive",
+      "tag": "section",
+      "top": 9256,
+      "height": 1707,
+      "words": 67,
+      "media": 13,
+      "middle": 0,
+      "heading": {
+       "text": "從大町開上去",
+       "size": 45,
+       "tag": "h2"
+      },
+      "left": 0,
+      "right": 0,
+      "textLeft": 16,
+      "textRight": 21,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#tickets.tickets",
+      "tag": "section",
+      "top": 10963,
+      "height": 1405,
+      "words": 39,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "三天的票",
+       "size": 69,
+       "tag": "p"
+      },
+      "left": 16,
+      "right": 36,
+      "textLeft": 16,
+      "textRight": 151,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#saving.saving",
+      "tag": "section",
+      "top": 12368,
+      "height": 922,
+      "words": 18,
+      "media": 0,
+      "middle": 107,
+      "heading": {
+       "text": "八個人，省下來的日圓",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 16,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#rental.rental",
+      "tag": "section",
+      "top": 13290,
+      "height": 724,
+      "words": 44,
+      "media": 0,
+      "middle": 108,
+      "heading": {
+       "text": "租雪具，五家",
+       "size": 24,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#faq.faq",
+      "tag": "section",
+      "top": 14014,
+      "height": 922,
+      "words": 92,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "先回答的",
+       "size": 24,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 16,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer#foot.foot",
+      "tag": "footer",
+      "top": 14936,
+      "height": 1269,
+      "words": 68,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "雪場",
+       "size": 61,
+       "tag": "a"
+      },
+      "left": 20,
+      "right": 226,
+      "textLeft": 20,
+      "textRight": 226,
+      "fullBleed": true,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 12516,
+      "height": 384
+     }
+    ],
+    "h1s": [
+     {
+      "text": "白馬 2027",
+      "size": 104,
+      "top": 112,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 16,
+      "n": 20
+     },
+     {
+      "x": 44,
+      "n": 3
+     }
+    ],
+    "leftBlocks": 23,
+    "bodySize": 18,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    1,
+    1,
+    0.86,
+    0.7,
+    1,
+    1,
+    1,
+    1,
+    0.74,
+    0.9,
+    0.86,
+    0.84
+   ],
+   "motion": {
+    "elements": 40,
+    "css": 31,
+    "transitions": 4,
+    "scripted": 5,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 13415,
+     "screens": 15.9,
+     "words": 449,
+     "img": 16,
+     "video": 0,
+     "canvas": 0,
+     "svg": 4,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 1,
+     "uiAbuse": false,
+     "realPictures": 11,
+     "videoCount": 0,
+     "uiPictures": 1,
+     "pictureSamples": [
+      "hakuba-cortina-kokusai-ski-resort.jpg",
+      "tsugaike-kogen-ski-resort-8353157614.jpg",
+      "hakuba-iwatake-snow-field-2.jpg",
+      "usagidaira.jpg",
+      "sun-alpina-kashimayari-ski-resort.jpg",
+      "hakuba-happo-one-winter-resort.jpg",
+      "hakuba-cortina-kokusai-ski-resort.jpg",
+      "tsugaike-kogen-ski-resort-8353157614.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "白馬 2027",
+     "words": 2,
+     "chars": 7,
+     "lines": 1,
+     "size": 66.3,
+     "vw": 17,
+     "font": "Noto Sans TC",
+     "weight": 900,
+     "tracking": -0.035,
+     "leading": 0.92,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "center",
+     "position": "center",
+     "widthRatio": 1,
+     "top": 72,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "白馬 2027",
+     "words": 2,
+     "lines": 1,
+     "size": 66.3,
+     "font": "Noto Sans TC"
+    },
+    "headings": [
+     {
+      "text": "白馬 2027",
+      "words": 2,
+      "chars": 7,
+      "lines": 1,
+      "size": 66.3,
+      "vw": 17,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": -0.035,
+      "leading": 0.92,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 1,
+      "top": 72,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "2026 到 27 是聖嬰年，氣象廳預報日本海側的雪偏少。所以我們挑山頂高、下雪後最快積起來的雪場，出發前兩週再看一次雪況。",
+      "words": 4,
+      "chars": 62,
+      "lines": 4,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Noto Serif TC",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.32,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2528,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "六個雪場 由北到南",
+      "words": 2,
+      "chars": 9,
+      "lines": 2,
+      "size": 35.1,
+      "vw": 9,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3672,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Cortina",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 26,
+      "vw": 6.7,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.82,
+      "top": 4245,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "乘鞍溫泉",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 26,
+      "vw": 6.7,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.82,
+      "top": 4697,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "栂池高原",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 26,
+      "vw": 6.7,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.82,
+      "top": 5149,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "岩岳",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 26,
+      "vw": 6.7,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.82,
+      "top": 5601,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "八方尾根",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 26,
+      "vw": 6.7,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.82,
+      "top": 6053,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "鹿島槍",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 26,
+      "vw": 6.7,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.82,
+      "top": 6505,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "從大町開上去",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 6846,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "+",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Noto Sans TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.36,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "left",
+      "widthRatio": 0.08,
+      "top": 7061,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "−",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Noto Sans TC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.36,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "left",
+      "widthRatio": 0.08,
+      "top": 7091,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "票，一天買一張",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 8343,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "三天的票",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 35.1,
+      "vw": 9,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.82,
+      "top": 8560,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "¥19,300",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 62.4,
+      "vw": 16,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.61,
+      "top": 9153,
+      "tag": "output",
+      "kind": "statement"
+     },
+     {
+      "text": "八個人，省下來的日圓",
+      "words": 1,
+      "chars": 10,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 9652,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "10.3",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 132.6,
+      "vw": 34,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": -0.04,
+      "leading": 0.8,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.69,
+      "top": 9922,
+      "tag": "output",
+      "kind": "statement"
+     },
+     {
+      "text": "租雪具，五家",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 10327,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Sunshine Hakuba",
+      "words": 2,
+      "chars": 15,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Noto Serif TC",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 10385,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Spicy Rentals",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Noto Serif TC",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 10469,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Rhythm Japan",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Noto Serif TC",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 10553,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Central Snowsports",
+      "words": 2,
+      "chars": 18,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Noto Serif TC",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 10637,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Woody",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Noto Serif TC",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 10721,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "先回答的",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 11142,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "雪場",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 31.2,
+      "vw": 8,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 12778,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "開車",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 31.2,
+      "vw": 8,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 12830,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "票",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 31.2,
+      "vw": 8,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 12881,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "租具",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 31.2,
+      "vw": 8,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 12932,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "問答",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 31.2,
+      "vw": 8,
+      "font": "Noto Sans TC",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 12983,
+      "tag": "li",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 29,
+     "maxLines": 4,
+     "over2Lines": 0,
+     "statements": 9,
+     "centered": 4,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Noto Serif TC",
+       "share": 0.92,
+       "mono": false
+      },
+      {
+       "family": "Noto Sans TC",
+       "share": 0.08,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      15,
+      16,
+      17,
+      18,
+      20,
+      22,
+      24,
+      26,
+      28,
+      31,
+      33,
+      35,
+      44,
+      62,
+      66,
+      133
+     ],
+     "sizeCount": 17,
+     "notLoaded": [],
+     "body": {
+      "font": "Noto Serif TC",
+      "size": 16,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 15.2
+     },
+     "measureChars": 54,
+     "max": {
+      "size": 132.6,
+      "vw": 34,
+      "font": "Noto Sans TC",
+      "text": "10.3"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.04,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#b3b7bb",
+     "bodyBgHsl": {
+      "h": 210,
+      "s": 0.06,
+      "l": 0.72
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#7c8890",
+       "top": 0,
+       "hsl": {
+        "h": 204,
+        "s": 0.08,
+        "l": 0.53
+       }
+      },
+      {
+       "color": "#c0c4c8",
+       "top": 147,
+       "hsl": {
+        "h": 210,
+        "s": 0.07,
+        "l": 0.77
+       }
+      },
+      {
+       "color": "#1a1b1d",
+       "top": 3152,
+       "hsl": {
+        "h": 220,
+        "s": 0.05,
+        "l": 0.11
+       }
+      },
+      {
+       "color": "#46525b",
+       "top": 3959,
+       "hsl": {
+        "h": 206,
+        "s": 0.13,
+        "l": 0.32
+       }
+      },
+      {
+       "color": "#3f5250",
+       "top": 4411,
+       "hsl": {
+        "h": 174,
+        "s": 0.13,
+        "l": 0.28
+       }
+      },
+      {
+       "color": "#414d59",
+       "top": 4862,
+       "hsl": {
+        "h": 210,
+        "s": 0.16,
+        "l": 0.3
+       }
+      },
+      {
+       "color": "#46534a",
+       "top": 5314,
+       "hsl": {
+        "h": 138,
+        "s": 0.08,
+        "l": 0.3
+       }
+      },
+      {
+       "color": "#3d4851",
+       "top": 5766,
+       "hsl": {
+        "h": 207,
+        "s": 0.14,
+        "l": 0.28
+       }
+      },
+      {
+       "color": "#475252",
+       "top": 6218,
+       "hsl": {
+        "h": 180,
+        "s": 0.07,
+        "l": 0.3
+       }
+      },
+      {
+       "color": "#e6e6e3",
+       "top": 7410,
+       "hsl": {
+        "h": 60,
+        "s": 0.06,
+        "l": 0.9
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0f1113",
+       "share": 0.46
+      },
+      {
+       "color": "#e6e6e3",
+       "share": 0.14
+      },
+      {
+       "color": "#f1f1ef",
+       "share": 0.13
+      },
+      {
+       "color": "#a9aaa6",
+       "share": 0.12
+      },
+      {
+       "color": "#141414",
+       "share": 0.09
+      }
+     ],
+     "button": {
+      "bg": "#1f5c49",
+      "hsl": {
+       "h": 161,
+       "s": 0.5,
+       "l": 0.24
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 2,
+     "radius": 0,
+     "height": 42,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "買早鳥票",
+      "看六個雪場"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 13,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.64
+     },
+     {
+      "type": "img",
+      "ratio": 0.59
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": false,
+     "height": 2363,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "noto sans tc",
+     "noto serif tc"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 13415,
+    "margins": {
+     "left": 16,
+     "right": 16
+    },
+    "sections": [
+     {
+      "sel": "header#top.hero",
+      "tag": "header",
+      "top": 0,
+      "height": 2363,
+      "words": 22,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "白馬 2027",
+       "size": 66,
+       "tag": "h1"
+      },
+      "left": 15,
+      "right": 15,
+      "textLeft": 16,
+      "textRight": 34,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": true
+     },
+     {
+      "sel": "section#why.intro",
+      "tag": "section",
+      "top": 2363,
+      "height": 789,
+      "words": 25,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "2026 到 27 是聖嬰年，氣象廳預報日本海側的雪偏少。所以我們挑山頂高、下雪後最快積起來的雪場，",
+       "size": 22,
+       "tag": "p"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#resorts.stage",
+      "tag": "section",
+      "top": 3152,
+      "height": 3573,
+      "words": 53,
+      "media": 7,
+      "middle": 0,
+      "heading": {
+       "text": "六個雪場",
+       "size": 35,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 38,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#drive.drive",
+      "tag": "section",
+      "top": 6726,
+      "height": 1545,
+      "words": 67,
+      "media": 5,
+      "middle": 0,
+      "heading": {
+       "text": "從大町開上去",
+       "size": 33,
+       "tag": "h2"
+      },
+      "left": 0,
+      "right": 0,
+      "textLeft": 16,
+      "textRight": 21,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#tickets.tickets",
+      "tag": "section",
+      "top": 8271,
+      "height": 1301,
+      "words": 39,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "三天的票",
+       "size": 35,
+       "tag": "p"
+      },
+      "left": 16,
+      "right": 17,
+      "textLeft": 16,
+      "textRight": 17,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#saving.saving",
+      "tag": "section",
+      "top": 9572,
+      "height": 675,
+      "words": 18,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "10.3",
+       "size": 133,
+       "tag": "output"
+      },
+      "left": 16,
+      "right": 89,
+      "textLeft": 16,
+      "textRight": 89,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#rental.rental",
+      "tag": "section",
+      "top": 10247,
+      "height": 774,
+      "words": 44,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "租雪具，五家",
+       "size": 24,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#faq.faq",
+      "tag": "section",
+      "top": 11022,
+      "height": 1271,
+      "words": 92,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "先回答的",
+       "size": 24,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 19,
+      "textLeft": 16,
+      "textRight": 19,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer#foot.foot",
+      "tag": "footer",
+      "top": 12292,
+      "height": 1122,
+      "words": 68,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "雪場",
+       "size": 31,
+       "tag": "a"
+      },
+      "left": 20,
+      "right": 21,
+      "textLeft": 20,
+      "textRight": 21,
+      "fullBleed": true,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "白馬 2027",
+      "size": 66,
+      "top": 72,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 16,
+      "n": 20
+     },
+     {
+      "x": 44,
+      "n": 3
+     }
+    ],
+    "leftBlocks": 23,
+    "bodySize": 16,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "12 different font sizes (14, 17, 19, 26, 29, 37, 43, 64, 86, 109, 194, 331).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "grey-body",
+   "width": 1440,
+   "message": "The running text is a soft grey on its ground (6.5:1).",
+   "fix": "Set body copy in the full ink (7:1 or more). Keep the muted ink for secondary notes; pages read thin and unfinished when everything is grey."
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "pinned-over-picture",
+   "width": 1440,
+   "message": "Pinned large text slides across pictures while the page scrolls: \"白馬 2027\" (screen 3, 100% over a picture); \"六個雪場 由北到南\" (screen 5, 100% over a picture); \"八方尾根\" (screen 6, 58% over a picture)",
+   "fix": "Jurors read a pinned title crossing drawings or photographs as a collision. Keep the pictures in the column the title does not occupy, or unpin it.",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "long-pin",
+   "width": 1440,
+   "message": "The same large text stays on screen for 3 screens in a row: \"八方尾根\"",
+   "fix": "A pinned element earns two screens, and something must change at each. Shorten the run or give every screen its own content."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/Users/jaychou/side-project/hakuba-2027/v2/.taste-skill/inspect/desktop-fold.jpg",
+   "pages": [
+    "/Users/jaychou/side-project/hakuba-2027/v2/.taste-skill/inspect/desktop-page-01.jpg",
+    "/Users/jaychou/side-project/hakuba-2027/v2/.taste-skill/inspect/desktop-page-02.jpg",
+    "/Users/jaychou/side-project/hakuba-2027/v2/.taste-skill/inspect/desktop-page-03.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/Users/jaychou/side-project/hakuba-2027/v2/.taste-skill/inspect/tablet-fold.jpg",
+   "pages": [
+    "/Users/jaychou/side-project/hakuba-2027/v2/.taste-skill/inspect/tablet-page-01.jpg",
+    "/Users/jaychou/side-project/hakuba-2027/v2/.taste-skill/inspect/tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/Users/jaychou/side-project/hakuba-2027/v2/.taste-skill/inspect/mobile-fold.jpg",
+   "pages": [
+    "/Users/jaychou/side-project/hakuba-2027/v2/.taste-skill/inspect/mobile-page-01.jpg",
+    "/Users/jaychou/side-project/hakuba-2027/v2/.taste-skill/inspect/mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}
