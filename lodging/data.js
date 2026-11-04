@@ -128,7 +128,8 @@ window.LODGING = {
      "https://www.ikyu.com/zh-tw/00917679/?cid=20270117&cod=20270120&lc=3&ppc=2&si=1&top=rooms"
     ]
    ],
-   "note": "一休價（使用者提供）：3 晚 2 人含稅，附晚餐 ¥65,340（TWD 13,502）、含兩餐 ¥70,686（TWD 14,607），已含折扣。3 人房價格以每人同價推估，另收入湯稅 ¥100/人/晚"
+   "note": "一休價（使用者提供）：3 晚 2 人含稅，附晚餐 ¥65,340（TWD 13,502）、含兩餐 ¥70,686（TWD 14,607），已含折扣。3 人房價格以每人同價推估，另收入湯稅 ¥100/人/晚",
+   "cancelPolicy": ""
   },
   {
    "id": "shiroi-terrace",
@@ -211,7 +212,8 @@ window.LODGING = {
      "https://www.booking.com/hotel/jp/bai-iterasu.zh-tw.html?checkin=2027-01-17&checkout=2027-01-20&group_children=0&group_adults=9&no_rooms=4"
     ]
    ],
-   "note": "✅ App 截圖確認（價格與網頁相同）：雙床 12,873、三人房 15,019（3 位成人價），三晚含早、Genius 16% 折扣、不可退款，不含稅費"
+   "note": "✅ App 截圖確認（價格與網頁相同）：雙床 12,873、三人房 15,019（3 位成人價），三晚含早、Genius 16% 折扣、不可退款，不含稅費",
+   "cancelPolicy": ""
   },
   {
    "id": "bettei-shirouma",
@@ -284,7 +286,8 @@ window.LODGING = {
      "https://www.booking.com/hotel/jp/bettei-shirouma.zh-tw.html?checkin=2027-01-17&checkout=2027-01-20&group_children=0&group_adults=8&no_rooms=1"
     ]
    ],
-   "note": "Booking 價格不隨人數變動，最多 8 人同價：TWD 30,224（11/18 前免費取消）或 35,261（1/10 前免費取消），已含 Genius 9 折，不含稅費。早餐加購 TWD 311/人"
+   "note": "Booking 價格不隨人數變動，最多 8 人同價：TWD 30,224（11/18 前免費取消）或 35,261（1/10 前免費取消），已含 Genius 9 折，不含稅費。早餐加購 TWD 311/人",
+   "cancelPolicy": ""
   },
   {
    "id": "arisu-no-izumi",
@@ -364,7 +367,8 @@ window.LODGING = {
      "https://www.booking.com/hotel/jp/arisunoquan.zh-tw.html?checkin=2027-01-17&checkout=2027-01-20&group_children=0&group_adults=9&no_rooms=4"
     ]
    ],
-   "note": "✅ App 手機專屬價（約 82 折）、含稅費：雙床 10,176、雙床私衛 12,212、加大雙人床 13,738、四人房 15,773（4 人價）、家庭房 22,388（5 人價）。三晚、不可退款"
+   "note": "✅ App 手機專屬價（約 82 折）、含稅費：雙床 10,176、雙床私衛 12,212、加大雙人床 13,738、四人房 15,773（4 人價）、家庭房 22,388（5 人價）。三晚、不可退款",
+   "cancelPolicy": ""
   },
   {
    "id": "summer-leaves",
@@ -447,7 +451,8 @@ window.LODGING = {
      "https://www.booking.com/hotel/jp/summer-leaves.zh-tw.html?checkin=2027-01-17&checkout=2027-01-20&group_children=0&group_adults=9&no_rooms=4"
     ]
    ],
-   "note": "✅ 2026/11/4 App 截圖價（約 9 折）：雙床共用 16,961、雙床私衛 18,091、三人房 23,745（另一間 25,441）、四人房 28,268。三晚、含早、12/18 前免費取消，可能另收稅費"
+   "note": "✅ 2026/11/4 App 截圖價（約 9 折）：雙床共用 16,961、雙床私衛 18,091、三人房 23,745（另一間 25,441）、四人房 28,268。三晚、含早、12/18 前免費取消，可能另收稅費",
+   "cancelPolicy": ""
   },
   {
    "id": "life-apartment",
@@ -518,7 +523,8 @@ window.LODGING = {
      "https://www.booking.com/hotel/jp/l-fe-apartment-hakuba.zh-tw.html?checkin=2027-01-17&checkout=2027-01-20&group_children=0&group_adults=9&no_rooms=3"
     ]
    ],
-   "note": "使用者提供 Booking 價，三晚、9% 折扣後、不可退款，可能另收稅費。以 2 人計價，4 人住上下舖單位可能加價"
+   "note": "使用者提供 Booking 價，三晚、9% 折扣後、不可退款，可能另收稅費。以 2 人計價，4 人住上下舖單位可能加價",
+   "cancelPolicy": ""
   },
   {
    "id": "exce-hakuba",
@@ -533,7 +539,7 @@ window.LODGING = {
    "ppBreakfast": 2141,
    "total": 49695,
    "meals": "",
-   "plan": "單房公寓×3＋三人房",
+   "plan": "Booking 單房公寓×3＋三人房",
    "tax": false,
    "cancel": "不可退款",
    "warn": null,
@@ -610,11 +616,16 @@ window.LODGING = {
    ],
    "book": [
     [
+     "Booking",
+     "https://www.booking.com/searchresults.zh-tw.html?ss=%E3%82%B3%E3%83%B3%E3%83%89%E3%83%9F%E3%83%8B%E3%82%A2%E3%83%A0%E3%82%A8%E3%82%AF%E3%82%BB%E7%99%BD%E9%A6%AC&checkin=2027-01-17&checkout=2027-01-20&group_children=0&group_adults=9&no_rooms=4"
+    ],
+    [
      "Agoda",
      "https://www.agoda.com/zh-tw/accom/property?propertyId=3088014&checkIn=2027-01-17&los=3&adults=9&rooms=4&currencyCode=TWD"
     ]
    ],
-   "note": "Agoda 價格以「每間每晚、不含稅費」理解（使用者提供），全部不可退款。⚠️ 若顯示的是 3 間合計，就要重算；Booking 也有上架：單房公寓 3 晚 TWD 10,990（剩 5 間，不可退，不含稅），比 Agoda 便宜約 NT$160/間；Booking 三人房價格待補"
+   "note": "Booking 單房公寓 3 晚 TWD 10,990（Genius 9 折、不可退、未含稅）×3；三人房 Booking 價待補，暫用 Agoda 3 晚 TWD 16,725",
+   "cancelPolicy": ""
   },
   {
    "id": "marukin",
@@ -695,7 +706,8 @@ window.LODGING = {
      "https://www.jalan.net/yad372680/plan/?stayYear=2027&stayMonth=1&stayDay=17&stayCount=3&roomCount=4&adultNum=2&roomCrack=200000,200000,200000,300000"
     ]
    ],
-   "note": "じゃらん 2027/1/17 起 3 晚、4 間（2+2+2+3）、9 位成人的含稅總價（使用者確認）。※之前誤把「點數（2%）」當成單價，已更正"
+   "note": "じゃらん 2027/1/17 起 3 晚、4 間（2+2+2+3）、9 位成人的含稅總價（使用者確認）。※之前誤把「點數（2%）」當成單價，已更正",
+   "cancelPolicy": "2026/11/27 前免費；之後到 1/9 收 5%，前 7–2 天 50%，前 1 天和當天 100%"
   },
   {
    "id": "eve-plaza",
@@ -712,8 +724,8 @@ window.LODGING = {
    "meals": "早",
    "plan": "特價週 含早・共用廁所",
    "tax": true,
-   "cancel": "依じゃらん規定",
-   "warn": "特價方案只能在 11/19 前預訂",
+   "cancel": "11/17 前免費取消",
+   "warn": "11/17 後取消要付 100%；特價方案只能在 11/19 前預訂",
    "out": null,
    "rating": 9.2,
    "ratingText": "4.6/5 · じゃらん 80 則",
@@ -821,7 +833,8 @@ window.LODGING = {
      "https://www.jalan.net/yad318774/plan/?stayYear=2027&stayMonth=1&stayDay=17&stayCount=3&roomCount=4&adultNum=2&roomCrack=200000,200000,200000,300000"
     ]
    ],
-   "note": "じゃらんスペシャルウィーク價：⚠️ 只能在 2026/11/19 前預訂；過了改用一般價（貴約 33%）。3 晚、9 人、4 間、含稅總價"
+   "note": "じゃらんスペシャルウィーク價：⚠️ 只能在 2026/11/19 前預訂；過了改用一般價（貴約 33%）。3 晚、9 人、4 間、含稅總價",
+   "cancelPolicy": "2026/11/17 前免費；之後（入住前 60 天起）取消收 100%"
   },
   {
    "id": "hakubaso",
@@ -838,7 +851,7 @@ window.LODGING = {
    "meals": "早",
    "plan": "含早",
    "tax": true,
-   "cancel": "依じゃらん規定",
+   "cancel": "1/9 前免費取消",
    "warn": null,
    "out": "太北：到八方約 1 小時",
    "rating": null,
@@ -909,7 +922,8 @@ window.LODGING = {
      "https://www.jalan.net/yad338804/plan/?stayYear=2027&stayMonth=1&stayDay=17&stayCount=3&roomCount=4&adultNum=2&roomCrack=200000,200000,200000,300000"
     ]
    ],
-   "note": "じゃらん 2027/1/17 起 3 晚、4 間（2+2+2+3）、9 位成人的含稅總價（使用者確認）。※之前誤把「點數（2%）」當成單價，已更正"
+   "note": "じゃらん 2027/1/17 起 3 晚、4 間（2+2+2+3）、9 位成人的含稅總價（使用者確認）。※之前誤把「點數（2%）」當成單價，已更正",
+   "cancelPolicy": "2027/1/9 前免費；前 7–4 天 50%，3–2 天 70%，前 1 天和當天 100%"
   },
   {
    "id": "schoendorf-yh",
@@ -926,7 +940,7 @@ window.LODGING = {
    "meals": "",
    "plan": "不含餐・上下舖",
    "tax": true,
-   "cancel": "依じゃらん規定",
+   "cancel": "1/9 前免費取消",
    "warn": null,
    "out": "上下舖青旅，同價有更好的",
    "rating": null,
@@ -984,7 +998,8 @@ window.LODGING = {
      "https://www.jalan.net/yad305104/plan/?stayYear=2027&stayMonth=1&stayDay=17&stayCount=3&roomCount=4&adultNum=2&roomCrack=200000,200000,200000,300000"
     ]
    ],
-   "note": "じゃらん 2027/1/17 起 3 晚、4 間（2+2+2+3）、9 位成人的含稅總價（使用者確認）。※之前誤把「點數（2%）」當成單價，已更正"
+   "note": "じゃらん 2027/1/17 起 3 晚、4 間（2+2+2+3）、9 位成人的含稅總價（使用者確認）。※之前誤把「點數（2%）」當成單價，已更正",
+   "cancelPolicy": "2027/1/9 前免費；前 7–6 天 25%，5–3 天 50%，2–1 天 70%，當天 100%"
   },
   {
    "id": "hiyodori",
@@ -1001,7 +1016,7 @@ window.LODGING = {
    "meals": "",
    "plan": "不含餐（A 方案）",
    "tax": true,
-   "cancel": "依じゃらん規定",
+   "cancel": "1/9 前免費取消",
    "warn": null,
    "out": null,
    "rating": null,
@@ -1067,7 +1082,8 @@ window.LODGING = {
      "https://www.jalan.net/yad313570/plan/?stayYear=2027&stayMonth=1&stayDay=17&stayCount=3&roomCount=4&adultNum=2&roomCrack=200000,200000,200000,300000"
     ]
    ],
-   "note": "じゃらん 2027/1/17 起 3 晚、4 間（2+2+2+3）、9 位成人的含稅總價（使用者確認）。※之前誤把「點數（2%）」當成單價，已更正"
+   "note": "じゃらん 2027/1/17 起 3 晚、4 間（2+2+2+3）、9 位成人的含稅總價（使用者確認）。※之前誤把「點數（2%）」當成單價，已更正",
+   "cancelPolicy": "入住前 8 天以上免費（1/9 前）；前 7–2 天 20%，前 1 天 30%，當天 50%；⭐ 雪不夠的話取消不收費"
   }
  ]
 };

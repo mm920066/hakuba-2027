@@ -651,7 +651,7 @@
         "B_2_apts": 44604,
         "A_mixed": 49695
       },
-      "price_note": "Agoda 價格以「每間每晚、不含稅費」理解（使用者提供），全部不可退款。⚠️ 若顯示的是 3 間合計，就要重算；Booking 也有上架：單房公寓 3 晚 TWD 10,990（剩 5 間，不可退，不含稅），比 Agoda 便宜約 NT$160/間；Booking 三人房價格待補",
+      "price_note": "Booking 單房公寓 3 晚 TWD 10,990（Genius 9 折、不可退、未含稅）×3；三人房 Booking 價待補，暫用 Agoda 3 晚 TWD 16,725",
       "price_per_person_per_night_twd": {
         "A_mixed": 1841,
         "A_4_rooms": 1858,
@@ -860,7 +860,8 @@
         "breakfast": 83981,
         "two_meals": 108560
       },
-      "cancel": "2026/11/27 前免費取消"
+      "cancel": "11/27 前免費取消",
+      "cancel_policy": "2026/11/27 前免費；之後到 1/9 收 5%，前 7–2 天 50%，前 1 天和當天 100%"
     },
     {
       "id": "eve-plaza",
@@ -1041,7 +1042,9 @@
         "room_only_shared_wc": 69255
       },
       "deadline": "2026-11-19（特價週預訂截止）",
-      "dinner": "可選（晚餐評分 4.8）"
+      "dinner": "可選（晚餐評分 4.8）",
+      "cancel": "11/17 前免費取消",
+      "cancel_policy": "2026/11/17 前免費；之後（入住前 60 天起）取消收 100%"
     },
     {
       "id": "hakubaso",
@@ -1158,7 +1161,9 @@
       "price_total_twd": {
         "breakfast": 58284,
         "two_meals": 78953
-      }
+      },
+      "cancel": "1/9 前免費取消",
+      "cancel_policy": "2027/1/9 前免費；前 7–4 天 50%，3–2 天 70%，前 1 天和當天 100%"
     },
     {
       "id": "schoendorf-yh",
@@ -1257,7 +1262,9 @@
       "price_total_twd": {
         "room_only": 50649,
         "breakfast": 59029
-      }
+      },
+      "cancel": "1/9 前免費取消",
+      "cancel_policy": "2027/1/9 前免費；前 7–6 天 25%，5–3 天 50%，2–1 天 70%，當天 100%"
     },
     {
       "id": "hiyodori",
@@ -1365,7 +1372,9 @@
       "price_total_twd": {
         "room_only": 34263,
         "two_meals": 67780
-      }
+      },
+      "cancel": "1/9 前免費取消",
+      "cancel_policy": "入住前 8 天以上免費（1/9 前）；前 7–2 天 20%，前 1 天 30%，當天 50%；⭐ 雪不夠的話取消不收費"
     }
   ],
   "fx": {

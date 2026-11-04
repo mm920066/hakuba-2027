@@ -22,11 +22,11 @@
   const today = new Date(D.updated + 'T00:00:00+09:00');
   const DL = [
     { date: '2026-11-18', id: 'bettei-shirouma', what: '免費取消截止' },
-    { date: '2026-11-19', id: 'eve-plaza', what: '特價方案預訂截止' },
+    { date: '2026-11-17', id: 'eve-plaza', what: '免費取消截止（之後 100%）' },
     { date: '2026-11-27', id: 'marukin', what: '免費取消截止' },
     { date: '2026-12-18', id: 'summer-leaves', what: '免費取消截止' },
   ];
-  $('#deadlines').innerHTML = DL.map(d => {
+  $('#deadlines').innerHTML = DL.sort((a, b) => a.date.localeCompare(b.date)).map(d => {
     const days = Math.round((new Date(d.date + 'T00:00:00+09:00') - today) / 864e5);
     const [, m, dd] = d.date.split('-');
     return `<li><b>${+m}/${+dd}</b>${circled(byId[d.id].no)} ${esc(byId[d.id].short)} ${d.what}<span>（還有 ${days} 天）</span></li>`;
@@ -35,7 +35,7 @@
   /* ---------- picks ---------- */
   const PICKS = [
     { id: 'shiroi-terrace', k: 'CP 值最高', why: '含早、掛流溫泉＋3 個免費包場風呂、Booking 8.4' },
-    { id: 'eve-plaza', k: '住雪場旁邊', why: '栂池雪道走路 30 秒、乾燥室、じゃらん 4.6；晚餐 4.8 分可加' },
+    { id: 'eve-plaza', k: '住雪場旁邊', why: '栂池雪道走路 30 秒、乾燥室、じゃらん 4.6；11/17 後取消收 100%' },
     { id: 'summer-leaves', k: '品質最穩', why: 'Booking 9.3（99 則）、含早、12/18 前免費取消' },
     { id: 'exce-hakuba', k: '住得最寬', why: '20–30㎡ 公寓、每間有廚房和衛浴、Booking 8.5' },
     { id: 'hiyodori', k: '最省錢', why: '栂池雪場走路 1 分、乾燥室；設備陽春、評論只有 2 則' },
@@ -85,6 +85,7 @@
         <dl class="lg-kv">
           <dt>評價</dt><dd>${esc(l.ratingText)}${l.ratingNote ? `<br><span class="muted">${esc(l.ratingNote)}</span>` : ''}</dd>
           <dt>4 間</dt><dd>${esc(l.fit)}</dd>
+          ${l.cancelPolicy ? `<dt>取消</dt><dd>${esc(l.cancelPolicy)}</dd>` : ''}
         </dl>
         <div><div class="lg-kv"><dt>車程</dt><dd class="muted">冬天估計，綠色是最近的</dd></div>
           <div class="lg-dist" style="margin-top:6px">${dist}</div></div>
