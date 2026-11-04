@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>白馬 2027・住宿</title>
+  <meta name="description" content="9 個人、4 間房、2027/1/17–1/20 三晚：12 間白馬住宿的價格、早餐、評價、到雪場的車程，點了直接去訂房。">
+  <meta name="theme-color" content="#b3b7bb">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="白馬住宿">
+  <script>document.documentElement.classList.add('js')</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500;900&family=Noto+Serif+TC:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" crossorigin="">
+  <link rel="stylesheet" href="base.css?v=20261104">
+  <link rel="stylesheet" href="style.css?v=20261104">
+  <link rel="stylesheet" href="lodging/lodging.css?v=20261104">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+</head>
+<body class="lg">
+
+<nav class="bar lg-bar" aria-label="頁面">
+  <a class="bar__mark" href="index.html">← 白馬 2027</a>
+  <ul class="bar__links">
+    <li><a class="link" href="#picks">結論</a></li>
+    <li><a class="link" href="#map-sec">地圖</a></li>
+    <li><a class="link" href="#chart-sec">價格 × 評價</a></li>
+    <li><a class="link" href="#list">全部 12 間</a></li>
+    <li><a class="link" href="#notes">怎麼算的</a></li>
+  </ul>
+  <a class="button bar__action" href="#list">看全部</a>
+</nav>
+
+<header class="lg-hero wrap">
+  <h1 class="lg-hero__title">住宿</h1>
+  <p class="lg-hero__lead">9 個人、4 間房（2+2+2+3），2027 年 1 月 17 日入住、20 日退房，三晚。12 間比完了，價格一律是<strong>每人每晚・台幣</strong>。點住宿名稱或「去訂房」會直接打開訂房網，日期和人數已經帶好。</p>
+  <ul class="lg-dead" id="deadlines" aria-label="期限"></ul>
+</header>
+
+<main>
+
+<section class="lg-sec wrap" id="picks" aria-labelledby="picks-h">
+  <h2 class="lg-h" id="picks-h">先看結論</h2>
+  <div class="lg-picks" id="pick-list"></div>
+</section>
+
+<section class="lg-sec lg-sec--field" id="map-sec" aria-labelledby="map-h">
+  <div class="wrap">
+    <h2 class="lg-h" id="map-h">住在哪裡</h2>
+    <p class="lg-sub">綠色圓圈是住宿（數字是編號，灰色是建議淘汰），黑色三角是我們要去的六個雪場。點圓圈看價格和訂房連結。</p>
+  </div>
+  <div class="lg-map" id="map" role="region" aria-label="住宿與雪場地圖"></div>
+</section>
+
+<section class="lg-sec wrap" id="chart-sec" aria-labelledby="chart-h">
+  <h2 class="lg-h" id="chart-h">價格 × 評價</h2>
+  <p class="lg-sub">越靠<strong>左上</strong>越划算：便宜又評價高。橫軸是「含早換算價」（沒附早餐的加 NT$300，讓大家公平比）；縱軸統一換成 10 分制（じゃらん 5 分制 ×2）。沒有分數的放在最下面那一排。</p>
+  <div class="lg-chart" id="chart"></div>
+  <div class="lg-tip" id="tip" role="status" aria-live="polite" hidden></div>
+</section>
+
+<section class="lg-sec wrap" id="list" aria-labelledby="list-h">
+  <div class="lg-listhead">
+    <h2 class="lg-h" id="list-h">全部 12 間</h2>
+    <div class="lg-view" role="group" aria-label="顯示方式">
+      <button type="button" class="lg-chip is-on" data-view="cards" aria-pressed="true">卡片</button>
+      <button type="button" class="lg-chip" data-view="table" aria-pressed="false">表格</button>
+    </div>
+  </div>
+  <div class="lg-controls">
+    <label class="lg-sort">排序
+      <select id="sort" class="field">
+        <option value="ppBreakfast">含早換算價（低→高）</option>
+        <option value="pp">每人每晚（低→高）</option>
+        <option value="rating">評價（高→低）</option>
+        <option value="happo">離八方（近→遠）</option>
+        <option value="tsugaike">離栂池（近→遠）</option>
+        <option value="no">編號</option>
+      </select>
+    </label>
+    <div class="lg-filters" role="group" aria-label="篩選">
+      <button type="button" class="lg-chip" data-f="breakfast" aria-pressed="false">含早餐</button>
+      <button type="button" class="lg-chip" data-f="onsen" aria-pressed="false">有溫泉</button>
+      <button type="button" class="lg-chip" data-f="rated" aria-pressed="false">有評分</button>
+      <button type="button" class="lg-chip" data-f="cancel" aria-pressed="false">可免費取消</button>
+      <button type="button" class="lg-chip is-on" data-f="hideOut" aria-pressed="true">隱藏淘汰</button>
+    </div>
+  </div>
+  <p class="lg-count small" id="count"></p>
+  <div id="cards" class="lg-cards"></div>
+  <div id="table" class="lg-tablewrap" hidden></div>
+</section>
+
+<section class="lg-sec wrap" id="notes" aria-labelledby="notes-h">
+  <h2 class="lg-h" id="notes-h">怎麼算的</h2>
+  <ul class="lg-notes">
+    <li><strong>每人每晚</strong> = 4 間（2+2+2+3）三晚的總價 ÷ 9 人 ÷ 3 晚。每間只挑一個代表方案比較，其他方案在卡片的「其他方案」裡。</li>
+    <li><strong>含稅</strong>：じゃらん、一休、アリスの泉（Booking App 價）是含稅價；其他 Booking／Agoda 標「可能產生額外費用」，住宿稅等可能另外加。</li>
+    <li><strong>車程</strong>是用直線距離乘山路係數、冬天時速 30 公里估的，不是導航時間；山路繞的地方（例如 Cortina）實際會多 5–10 分鐘。</li>
+    <li><strong>匯率</strong> 1 日圓 ≈ <span id="fx"></span> 台幣（<span id="fxdate"></span>）。價格是 <span id="upd"></span> 查的，訂房網隨時會變，以點進去看到的為準。</li>
+    <li>原始資料在 <a class="link-plain" href="lodging/lodgings.json">lodging/lodgings.json</a>，改完跑 <code>python3 lodging/build.py</code> 就會更新這頁。</li>
+  </ul>
+</section>
+
+</main>
+
+<footer class="lg-foot wrap small"><a class="link-plain" href="index.html">← 回白馬 2027 主頁</a></footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" crossorigin=""></script>
+<script src="lodging/data.js?v=20261104"></script>
+<script src="lodging/lodging.js?v=20261104"></script>
+</body>
+</html>

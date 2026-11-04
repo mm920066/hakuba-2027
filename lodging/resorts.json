@@ -1,0 +1,12 @@
+{
+  "_note": "雪場座標取自 mm920066/hakuba-2027 data.js；距離以直線距離+道路估算車程",
+  "base": {"name": "大町市（信濃大町站）", "lat": 36.5036, "lng": 137.8633},
+  "resorts": [
+    {"id": "cortina",   "name": "白馬 Cortina",   "lat": 36.776,  "lng": 137.888},
+    {"id": "norikura",  "name": "白馬乘鞍溫泉",   "lat": 36.765,  "lng": 137.883},
+    {"id": "tsugaike",  "name": "白馬栂池高原",   "lat": 36.747,  "lng": 137.870},
+    {"id": "iwatake",   "name": "白馬岩岳",       "lat": 36.7214, "lng": 137.8700},
+    {"id": "happo",     "name": "白馬八方尾根",   "lat": 36.7020, "lng": 137.8480},
+    {"id": "kashimayari","name": "鹿島槍",        "lat": 36.601,  "lng": 137.826}
+  ]
+}
