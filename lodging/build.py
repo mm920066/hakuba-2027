@@ -25,7 +25,7 @@ H = {
    book=[('Booking', f'https://www.booking.com/hotel/jp/l-fe-apartment-hakuba.zh-tw.html?{BK}&group_adults=9&no_rooms=3')]),
  'exce-hakuba': dict(no=7, short='エクセ白馬', pp=1841, total=49695, meals='', plan='單房公寓×3＋三人房', tax=False, cancel='不可退款',
    book=[('Agoda', 'https://www.agoda.com/zh-tw/accom/property?propertyId=3088014&checkIn=2027-01-17&los=3&adults=9&rooms=4&currencyCode=TWD')]),
- 'marukin': dict(no=8, short='丸金旅館', pp=3110, total=83980, meals='早', plan='含早・和室附衛浴', tax=True, cancel='依じゃらん規定',
+ 'marukin': dict(no=8, short='丸金旅館', pp=3110, total=83980, meals='早', plan='含早・和室附衛浴', tax=True, cancel='11/27 前免費取消',
    book=[('じゃらん', f'https://www.jalan.net/yad372680/plan/?{JL}')]),
  'eve-plaza': dict(no=9, short='イヴプラザ', pp=2844, total=76797, meals='早', plan='特價週 含早・共用廁所', tax=True, cancel='依じゃらん規定',
    warn='特價方案只能在 11/19 前預訂',

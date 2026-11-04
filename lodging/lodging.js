@@ -23,6 +23,7 @@
   const DL = [
     { date: '2026-11-18', id: 'bettei-shirouma', what: '免費取消截止' },
     { date: '2026-11-19', id: 'eve-plaza', what: '特價方案預訂截止' },
+    { date: '2026-11-27', id: 'marukin', what: '免費取消截止' },
     { date: '2026-12-18', id: 'summer-leaves', what: '免費取消截止' },
   ];
   $('#deadlines').innerHTML = DL.map(d => {
