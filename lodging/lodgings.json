@@ -615,17 +615,17 @@
     {
       "id": "exce-hakuba",
       "name": "コンドミニアムエクセ白馬（Condominium Exce Hakuba，白馬モアリゾート）",
-      "url": "https://www.agoda.com/zh-tw/accom/property?propertyId=3088014",
-      "source": "Agoda",
+      "url": "https://www.booking.com/hotel/jp/condominium-excel-hakuba.zh-tw.html",
+      "source": "Booking.com（另有 Agoda）",
       "type": "公寓式住宿（每間都有全配廚房和獨立衛浴）",
       "area": "白馬村神城 24196（飯森站步行約 15 分，五龍／八方南側）",
       "lat": 36.6803,
       "lng": 137.8456,
       "price_combos": [
         {
-          "label": "A'：Booking 單房 ×3 + Agoda 三人房",
-          "rooms": "Booking 標準單房公寓 ×3（每間 3 晚 10,990，Genius 9 折）+ Agoda 標準三人房 ×1（3 晚 16,725）",
-          "total": 49695
+          "label": "Booking 4 間",
+          "rooms": "標準單房公寓 ×3（每間 3 晚 10,990）+ 標準三人房 ×1（3 晚 16,486）",
+          "total": 49456
         },
         {
           "label": "A：4 間獨立",
@@ -647,15 +647,11 @@
         }
       ],
       "price_total_twd": {
-        "A_4_rooms": 50178,
-        "B_2_apts": 44604,
-        "A_mixed": 49695
+        "booking_4_rooms": 49456
       },
-      "price_note": "Booking 單房公寓 3 晚 TWD 10,990（Genius 9 折、不可退、未含稅）×3；三人房 Booking 價待補，暫用 Agoda 3 晚 TWD 16,725",
+      "price_note": "✅ Booking 價（Genius 9 折、不可退款、未含稅）：單房公寓 3 晚 TWD 10,990 ×3 ＋ 三人房 3 晚 TWD 16,486",
       "price_per_person_per_night_twd": {
-        "A_mixed": 1841,
-        "A_4_rooms": 1858,
-        "B_2_apts": 1652
+        "booking_4_rooms": 1832
       },
       "breakfast": false,
       "rooms_total": "兩房公寓剩 3、單房剩 5、三人房剩 1",

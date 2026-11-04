@@ -535,9 +535,9 @@ window.LODGING = {
    "area": "白馬村神城 24196（飯森站步行約 15 分，五龍／八方南側）",
    "lat": 36.6803,
    "lng": 137.8456,
-   "pp": 1841,
-   "ppBreakfast": 2141,
-   "total": 49695,
+   "pp": 1832,
+   "ppBreakfast": 2132,
+   "total": 49456,
    "meals": "",
    "plan": "Booking 單房公寓×3＋三人房",
    "tax": false,
@@ -594,9 +594,9 @@ window.LODGING = {
    "nearest": "happo",
    "plans": [
     [
-     "A'：Booking 單房 ×3 + Agoda 三人房：Booking 標準單房公寓 ×3（每間 3 晚 10,990，Genius 9 折）+ Agoda 標準三人房 ×1（3 晚 16,725）",
-     1841,
-     49695
+     "Booking 4 間：標準單房公寓 ×3（每間 3 晚 10,990）+ 標準三人房 ×1（3 晚 16,486）",
+     1832,
+     49456
     ],
     [
      "A：4 間獨立：標準單房公寓（2 人，20㎡）×3 + 標準三人房（30㎡）×1",
@@ -617,14 +617,14 @@ window.LODGING = {
    "book": [
     [
      "Booking",
-     "https://www.booking.com/searchresults.zh-tw.html?ss=%E3%82%B3%E3%83%B3%E3%83%89%E3%83%9F%E3%83%8B%E3%82%A2%E3%83%A0%E3%82%A8%E3%82%AF%E3%82%BB%E7%99%BD%E9%A6%AC&checkin=2027-01-17&checkout=2027-01-20&group_children=0&group_adults=9&no_rooms=4"
+     "https://www.booking.com/hotel/jp/condominium-excel-hakuba.zh-tw.html?checkin=2027-01-17&checkout=2027-01-20&group_children=0&group_adults=9&no_rooms=4"
     ],
     [
      "Agoda",
      "https://www.agoda.com/zh-tw/accom/property?propertyId=3088014&checkIn=2027-01-17&los=3&adults=9&rooms=4&currencyCode=TWD"
     ]
    ],
-   "note": "Booking 單房公寓 3 晚 TWD 10,990（Genius 9 折、不可退、未含稅）×3；三人房 Booking 價待補，暫用 Agoda 3 晚 TWD 16,725",
+   "note": "✅ Booking 價（Genius 9 折、不可退款、未含稅）：單房公寓 3 晚 TWD 10,990 ×3 ＋ 三人房 3 晚 TWD 16,486",
    "cancelPolicy": ""
   },
   {
